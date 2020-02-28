@@ -1,0 +1,196 @@
+Title: The ASAS-SN Bright Supernova Catalog -- IV. 2017
+Authors: T. W.-S. Holoien et al.
+Table: Table 1 - ASAS-SN Supernovae
+================================================================================
+Byte-by-byte Description of file: table1.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label      Explanations
+--------------------------------------------------------------------------------
+   1- 11 A11    ---      SNName     Name of supernova
+  13- 19 A7     ---      IAUName    IAU name of supernova
+  21- 33 A13    ---      DiscDate   Discovery Date
+  35- 45 A11.2  ---      RA         Right Ascension (1)
+  47- 58 A12.2  ---      Dec        Declination (1)
+  60- 66 A7     ---      Redshift   Redshift of supernova
+  68- 71 A4.1   mag      DiscMag    Discovery V-band or g-band Magnitude (2)
+  73- 77 A5.1   mag      PeakMagV   Peak V-band Magnitude (3)
+  79- 83 A5.1   mag      PeakMagg   Peak g-band Magnitude (3)
+  85- 89 F5.2   arcsec   Offset     Offset from host nucleus (4)
+  91- 97 A6     ---      Type       Type of supernova
+  99-101 A3     d        DiscAge    Age of supernova at discovery, relative to peak (5)
+ 103-132 A30    ---      HostName   Host galaxy name
+ 134-166 A33    ---      DiscAtel   Discovery ATel
+ 168-200 A33    ---      ClassAtel  Classification ATel
+--------------------------------------------------------------------------------
+Note (1):   Right ascension and declination are given in the J2000 epoch.
+Note (2):   Discovery magnitudes are V- or g-band magnitudes from ASAS-SN, depending on the camera used for discovery. 
+Note (3):   Peak V- and g-band magnitudes are measured from ASAS-SN data. "---" indicates the supernova was not detected in that filter in ASAS-SN data.
+Note (4):   Offset indicates the offset of the supernova in arcseconds from the coordinates of the host nucleus, taken from NED.
+Note (5):   Discovery ages are given in days relative to peak. All ages are approximate and are only listed if a clear age was given in the classification telegram.
+--------------------------------------------------------------------------------
+ASASSN-17ac 2017ad  2017-01-04.36 14:34:26.01 -38:28:09.70 0.03332 16.6  16.3   ---  6.09 Ia       -6 2MASX J14342552-3828081        Brimacombe et al. (2017a)         Cikota et al. (2017)              
+ASASSN-17ad 2017ah  2017-01-04.55 11:10:01.95 +63:38:34.16 0.03286 17.3  15.9   ---  3.82 Ia      -11 CGCG 314-011                   Post et al. (2017a)               TNS                               
+ASASSN-17ae 2017ai  2017-01-04.66 16:17:02.62 +10:41:36.17 0.05027 17.5  17.6   --- 11.50 Ia       -3 2MASX J16170338+1041359        Post et al. (2017b)               TNS                               
+ASASSN-17af 2017bc  2017-01-05.51 12:19:50.90 -06:51:20.45 0.02687 17.0  16.4   ---  4.47 Ia       -4 MCG -01-32-001                 Brimacombe et al. (2017b)         Cikota et al. (2017)              
+ASASSN-17ai 2017hl  2017-01-09.63 12:07:18.83 +16:50:26.02 0.02307 17.3  16.7   ---  4.74 Ib       -7 KUG 1204+171                   Brown et al. (2017b)              Taddia et al. (2017)              
+ASASSN-17aj 2017hm  2017-01-09.62 11:33:10.50 -10:13:18.37 0.02128 16.9  15.8   --- 25.50 Ia      -13 MCG -02-30-003                 Brown et al. (2017b)              Taddia et al. (2017)              
+ASASSN-17am 2017hq  2017-01-10.66 13:49:23.81 +08:30:27.62 0.03798 17.6  16.5   ---  2.21 Ia       18 CGCG 073-079                   Post et al. (2017c)               TNS                               
+ASASSN-17ap 2017je  2017-01-03.11 00:37:37.59 -34:29:49.24 0.04500 17.4  16.8   ---  8.94 Ia      -10 GALEXASC J003737.20-342957.7   Brimacombe et al. (2017c)         Drout et al. (2017)               
+ASASSN-17at 2017ln  2017-01-19.54 11:38:33.66 +25:23:50.17 0.02536 16.7  16.4   ---  3.08 Ia       -9 2MASX J11383367+2523532        Masi et al. (2017a)               Nyholm et al. (2017)              
+ASASSN-17bb 2017ng  2017-01-23.65 15:20:40.75 +04:39:34.42 0.03700 16.9  16.7   ---  1.86 Ia       -3 2MASX J15204087+0439331        Brimacombe et al. (2017d)         Drout et al. (2017)               
+ASASSN-17bc 2017nh  2017-01-23.36 07:10:13.52 +27:12:09.97 0.06100 17.6  16.8   ---  6.18 Ia        1 2MASX J07101346+2712041        Brimacombe et al. (2017e)         Rui et al. (2017)                 
+ASASSN-17bd 2017nk  2017-01-23.61 15:59:18.43 +13:36:50.89 0.03455 17.3  17.1   ---  3.00 Ia        3 2MASX J15591858+1336487        Brimacombe et al. (2017f)         Drout et al. (2017)               
+ASASSN-17be 2017pa  2017-01-17.07 02:03:10.53 -61:41:10.61 0.04000 17.5  17.0   ---  0.51 Ia       -1 2MASX J02031063-6141105        Brimacombe et al. (2017f)         Brimacombe et al. (2017f)         
+ASASSN-17bh 2017po  2017-01-26.61 16:03:51.70 +39:59:24.17 0.03186 16.6  15.8   --- 14.52 Ia       -3 CGCG 223-033                   Drout et al. (2017)               Kilpatrick et al. (2017)          
+ASASSN-17bn 2017vu  2017-01-21.43 08:59:23.92 -09:52:29.32 0.04451 17.6  17.0   ---  0.61 Ia       -2 2MASX J08592386-0952291        Kilpatrick et al. (2017)          Kilpatrick et al. (2017)          
+ASASSN-17bo 2017wb  2017-01-28.59 11:01:19.53 +70:39:54.76 0.03000 16.9  16.3   ---  1.91 Ia       -9 2MASX J11011991+7039548        Krannich et al. (2017)            Krannich et al. (2017)            
+ASASSN-17bp 2017wi  2017-01-29.05 02:02:08.63 -17:59:56.36 0.05100 17.2  17.0   ---  3.45 Ia        7 GALEXASC J020208.73-175958.3   Krannich et al. (2017)            Bose et al. (2017a)               
+ASASSN-17bq 2017xx  2017-01-27.51 07:25:38.21 +59:00:09.63 0.04000 17.6  16.4   ---  1.51 Ia       19 GALEXASC J072538.14+590010.5   Krannich et al. (2017)            Krannich et al. (2017)            
+ASASSN-17br 2017xy  2017-01-29.63 15:52:00.31 +66:18:55.27 0.02600 17.1  18.1   ---  3.71 IIP      10 GALEXASCJ155200.16+661851.6    Krannich et al. (2017)            Kilpatrick et al. (2017)          
+ASASSN-17bs 2017yh  2017-01-30.66 17:52:06.13 +21:33:57.82 0.02040 16.5  15.9   --- 13.02 Ia       -8 IC 1269                        Kilpatrick et al. (2017)          Bose et al. (2017a)               
+ASASSN-17bt 2017yt  2017-01-31.45 09:44:11.46 +32:50:36.53 0.04534 17.1  17.0   ---  5.28 Ia        4 2MASX J09441179+3250341        Kilpatrick et al. (2017)          Bose et al. (2017a)               
+ASASSN-17bu 2017yv  2017-01-31.19 10:23:40.43 -35:49:31.62 0.01558 16.6  15.2   ---  2.83 Ia      -10 ESO 375-G018                   Kilpatrick et al. (2017)          Bose et al. (2017a)               
+ASASSN-17bw 2017zu  2017-02-01.66 16:58:37.69 +50:29:26.48 0.01020 17.0  17.0   ---  0.28 II      --- SBS 1657+505                   Brimacombe et al. (2017h)         Brimacombe et al. (2017h)         
+ASASSN-17cl 2017auf 2017-02-14.28 05:02:19.58 -10:21:22.75 0.01329 17.4  16.6   ---  4.30 II       -6 MCG -02-13-038                 Post et al. (2017d)               Barbarino et al. (2017)           
+ASASSN-17cm 2017aut 2017-02-14.03 05:47:43.06 -79:12:52.88 0.01723 16.3  16.0   ---  0.72 Ia        5 2MASX J05474279-7912525        Post et al. (2017d)               Barbarino et al. (2017)           
+ASASSN-17co 2017awk 2017-02-16.64 18:09:20.71 +18:17:53.47 0.01806 16.3  15.7   ---  3.32 Ia       -5 UGC 11128                      Brimacombe et al. (2017g)         Barbarino et al. (2017)           
+ASASSN-17cq 2017axl 2017-02-18.22 06:15:55.49 -55:56:51.65 0.03400 16.9  16.2   ---  0.84 Ia       -5 Uncatalogued                   Brimacombe et al. (2017g)         Hosseinzadeh et al. (2017a)       
+ASASSN-17cr 2017ayk 2017-02-20.64 16:23:49.85 +15:04:48.32 0.03442 17.0  16.4   ---  1.00 Ia       -1 SDSS J162349.91+150448.3       Kiyota et al. (2017)              Brimacombe et al. (2017h)         
+ASASSN-17cs 2017azw 2017-02-21.02 04:22:50.19 -82:04:11.10 0.02000 16.4  16.4   ---  6.01 Ia      --- ESO 015-G010                   Brimacombe et al. (2017g)         TNS                               
+ASASSN-17cu 2017bgp 2017-02-21.53 10:46:07.32 +44:43:29.24 0.04720 17.8  17.5   ---  0.72 Ia       -9 MCG +08-20-019                 Hosseinzadeh et al. (2017a)       Hosseinzadeh et al. (2017a)       
+ASASSN-17cz 2017bkc 2017-02-23.65 17:50:30.10 -01:48:07.38 0.01738 16.9  16.6   ---  8.54 Ia       -2 2MASX J17503055-0148023        Kiyota et al. (2017)              TNS                               
+ASASSN-17df 2017bos 2017-03-01.08 09:46:30.17 -21:34:17.72 0.02927 16.4  16.1   ---  0.14 Ia       -1 NGC 2996                       Stone et al. (2017a)              Stone et al. (2017a)              
+ASASSN-17dh 2017cal 2017-03-07.53 17:14:24.24 +20:18:50.38 0.02076 15.9  15.4   ---  0.42 Ia        1 NGC 6321                       Stone et al. (2017b)              Stone et al. (2017b)              
+ASASSN-17dj 2017cav 2017-03-07.58 18:06:43.90 +06:50:19.60 0.02500 16.4  16.0   --- 10.00 Ia       -1 Uncatalogued                   Stone et al. (2017b)              Bersier (2017a)                   
+ASASSN-17ds 2017cfq 2017-03-17.36 08:03:55.20 +26:31:12.73 0.02165 17.2  16.6   ---  3.18 II      --- IC 0491                        Brimacombe et al. (2017i)         Pan et al. (2017)                 
+ASASSN-17dt 2017cig 2017-03-19.48 11:06:47.19 +14:12:26.68 0.05000 17.2  16.9   --- 11.56 Ia        2 2MFGC 08661                    Brimacombe et al. (2017i)         Bersier (2017b)                   
+ASASSN-17du 2017cii 2017-03-21.56 16:33:19.91 +23:43:52.27 0.03325 16.9  16.7   ---  4.23 Ia       -3 SDSS J163319.94+234356.4       Bersier (2017b)                   TNS                               
+ASASSN-17dv 2017civ 2017-03-22.34 09:52:31.22 -21:57:54.58 0.02900 17.9  16.9   ---  0.28 II      --- GALEXASC J095231.21-215754.7   Pan et al. (2017)                 Hamanowicz et al. (2017)          
+ASASSN-17dw 2017cjc 2017-03-23.39 20:29:49.47 -42:43:00.95 0.03400 16.8  16.8   ---  8.77 Ia        0 GALEXASC J202948.67-424303.8   Bersier (2017b)                   Bersier (2017b)                   
+ASASSN-17ea 2017cjr 2017-03-24.28 12:42:50.67 -30:24:43.06 0.01444 16.3  14.8   ---  8.42 Ia       -5 ESO 442-G 015                  Bersier (2017b)                   Fraser et al. (2017)              
+ASASSN-17eb 2017cju 2017-03-23.60 15:38:34.05 +13:20:51.56 0.04933 17.9  17.8   --- 11.89 Ia       -2 2MASX J15383353+1320423        Bersier (2017b)                   Bersier (2017b)                   
+ASASSN-17ed 2017cnn 2017-03-16.06 04:42:28.25 -44:15:04.43 0.04031 16.8  16.7   --- 10.68 Ia       -2 AM 0440-442                    Pan et al. (2017)                 Morrell et al. (2017)             
+ASASSN-17ee 2017ckx 2017-03-28.34 07:48:11.01 +28:13:49.04 0.02768 16.8  16.3   ---  0.22 Ia       -5 UGC 04030 NED01                Brimacombe et al. (2017j)         TNS                               
+ASASSN-17ej 2017cpu 2017-04-01.47 14:07:52.53 +09:38:31.38 0.05441 18.1  16.9   ---  3.96 Ia       -7 2MASX J14075270+0938281        Morrell et al. (2017)             TNS                               
+ASASSN-17ek 2017cqe 2017-04-01.00 03:58:02.45 -41:53:35.88 0.05897 17.2  17.0   ---  2.83 Ia       -3 LCRS B035620.1-420206          Brimacombe et al. (2017j)         TNS                               
+ASASSN-17em 2017cts 2017-04-02.46 17:03:11.76 +61:27:26.06 0.01976 17.0  15.5   --- 18.84 Ia       -5 CGCG 299-048 NED01             Morrell et al. (2017)             Morrell et al. (2017)             
+ASASSN-17en 2017cxy 2017-04-08.31 18:23:17.88 -43:08:32.86 0.02010 16.4  15.1   ---  0.36 Ia       -4 ESO 280-G 013                  Brimacombe et al. (2017k)         Hosseinzadeh et al. (2017b)       
+ASASSN-17er 2017cze 2017-04-11.29 11:09:46.80 -13:22:50.38 0.01486 15.8  15.6   ---  0.71 Ia        4 NGC 3546                       Bock et al. (2017)                Bock et al. (2017)                
+ASASSN-17ez 2017daf 2017-04-15.53 14:34:52.70 +40:44:52.87 0.01900 16.0  15.7   ---  0.90 Ia        1 UGC 09386                      Cacella et al. (2017)             Cacella et al. (2017)             
+ASASSN-17fd 2017dfb 2017-04-19.51 15:39:05.04 +05:34:16.93 0.02596 16.5  16.0   ---  1.94 Ia-91T   -8 ARK 481                        Brimacombe et al. (2017l)         Cannizzaro et al. (2017)          
+ASASSN-17fe 2017dfo 2017-04-19.11 09:20:38.04 -29:57:03.53 0.03595 17.1  16.9   --- 24.20 Ia       -5 2MASX J09203974-2956533        Brimacombe et al. (2017l)         Cannizzaro et al. (2017)          
+ASASSN-17ff 2017dfq 2017-04-20.25 11:03:12.91 +11:04:40.51 0.02136 16.4  15.4   ---  4.59 Ia       -1 NGC 3506                       Brimacombe et al. (2017l)         Brimacombe et al. (2017l)         
+ASASSN-17fg 2017dfv 2017-04-19.91 05:00:35.82 -62:04:14.38 0.02800 16.6  16.4   --- 13.26 Ia      --- 2MASX J05003418-6204211        Brimacombe et al. (2017l)         TNS                               
+ASASSN-17fk 2017dhr 2017-04-20.98 00:23:07.15 -16:47:00.28 0.00715 16.4   ---   --- 10.00 Ia      --- NGC 2076                       Dong et al. (2017)                TNS                               
+ASASSN-17fr 2017dps 2017-05-01.28 13:36:40.00 -33:58:01.13 0.01247 15.4  14.7   --- 12.78 Ia       -5 IC 4296                        Nicholls et al. (2017)            Elias-Rosa et al. (2017)          
+ASASSN-17fs 2017dry 2017-04-28.40 22:32:44.53 -59:28:18.05 0.04042 17.2  16.7   ---  0.64 Ia      --- FAIRALL 0131                   Brimacombe et al. (2017m)         Hosseinzadeh et al. (2017c)       
+ASASSN-17fx 2017dwp 2017-05-04.27 12:31:43.69 +36:12:34.93 0.03336 17.1  16.6   ---  1.53 Ia      -12 2MASX J12314373+3612331        Brimacombe et al. (2017m)         Brimacombe et al. (2017m)         
+ASASSN-17fy 2017dwq 2017-05-04.05 09:03:32.47 -21:20:02.72 0.01820 16.9  16.5   ---  2.48 IIn     --- 2MASX J09033237-2120017        Brimacombe et al. (2017m)         Kankare et al. (2017a)            
+ASASSN-17gb 2017dys 2017-05-09.39 23:05:01.95 -26:38:06.36 0.02926 17.0  16.7   ---  0.85 Ia       -5 2MASX J23050199-2638071        Brimacombe et al. (2017n)         Brimacombe et al. (2017n)         
+ASASSN-17gd 2017eax 2017-05-14.39 14:56:52.40 +09:16:16.36 0.02820 16.6  15.9   --- 10.01 Ia       -5 UGC 09616                      Brimacombe et al. (2017n)         Kankare et al. (2017a)            
+ASASSN-17ge 2017eaz 2017-05-14.30 13:47:43.62 +03:24:40.90 0.02358 17.0  16.6   ---  7.31 Ia        4 IC 0939                        Brimacombe et al. (2017n)         Kankare et al. (2017a)            
+ASASSN-17gg 2017ebo 2017-05-16.50 15:15:02.76 +06:35:19.53 0.03266 17.1  16.9   ---  5.61 Ia        8 CGCG 049-073                   Kankare et al. (2017a)            Kankare et al. (2017a)            
+ASASSN-17gi 2017ecp 2017-05-16.26 14:14:48.93 -29:33:37.01 0.02000 17.4  16.6   ---  0.14 Ibn     --- PGC 727891                     Kankare et al. (2017a)            Hosseinzadeh et al. (2017d)       
+ASASSN-17gl 2017eex 2017-05-21.27 10:23:19.35 +22:23:38.55 0.03966 17.4  17.0   --- 14.01 Ia        1 MCG +04-25-014                 Hosseinzadeh et al. (2017d)       TNS                               
+ASASSN-17gr 2017egb 2017-05-24.31 16:08:39.59 +12:00:39.03 0.01615 16.7  15.5   ---  0.58 Ia       -8 CGCG 079-058                   Hamanowicz et al. (2017)          Hamanowicz et al. (2017)          
+ASASSN-17gt 2017eio 2017-05-24.59 22:55:37.11 +19:10:24.60 0.03347 17.5  16.6   ---  4.05 Ia       -6 CGCG 453-026                   Stone et al. (2017c)              TNS                               
+ASASSN-17gu 2017eip 2017-05-26.34 11:51:31.07 +15:27:25.22 0.02100 17.1  16.4   ---  3.19 Ia       -6 SDSS J115131.21+152727.5       Stone et al. (2017c)              Stone et al. (2017c)              
+ASASSN-17hb 2017ejw 2017-05-31.42 01:12:34.20 +00:17:29.30 0.01912 16.0  15.2   --- 10.48 Ia      --- UGC 00757                      Brimacombe et al. (2017o)         TNS                               
+ASASSN-17he 2017ejx 2017-05-30.05 09:45:48.36 -14:22:05.59 0.00811 16.6  14.7   ---  0.58 II      --- NGC 2993                       Brimacombe et al. (2017o)         Kostrzewa-Rutkowska et al. (2017) 
+ASASSN-17hk 2017enx 2017-06-06.08 10:10:52.07 -66:38:50.32 0.00600 14.5  13.9   ---  0.64 Ia       -6 ESO 092-G014                   Brown et al. (2017c)              Uddin et al. (2017a)              
+ASASSN-17ho 2017erv 2017-06-13.38 19:18:47.10 -84:41:50.03 0.01704 16.1  15.6   ---  3.73 Ia       -9 AM 1904-844                    Uddin et al. (2017a)              Uddin et al. (2017b)              
+ASASSN-17hp 2017esb 2017-06-12.16 13:09:36.02 -18:58:19.81 0.03548 16.6  16.1   ---  1.06 Ia        5 ESO 575-G066                   Uddin et al. (2017a)              Uddin et al. (2017b)              
+ASASSN-17hq 2017eve 2017-06-19.14 18:43:53.51 -56:29:29.04 0.03100 16.5  16.3   --- 10.88 Ia        1 GALEXASC J184352.21-562927.7   Uddin et al. (2017a)              Uddin et al. (2017b)              
+ASASSN-17hz 2017evn 2017-06-20.26 11:47:23.29 +23:21:53.69 0.01716 16.4  15.3   ---  3.90 Ia       -9 SDSS J114723.29+232157.5       Wietho et al. (2017)             Uddin et al. (2017b)              
+ASASSN-17ia 2017ewv 2017-06-23.31 13:10:59.29 +78:24:37.15 0.02252 16.9  16.7   --- 15.13 IIP     --- UGC 08287                      Masi et al. (2017b)               TNS                               
+ASASSN-17ie 2017exo 2017-06-24.43 18:31:41.81 +16:39:05.22 0.01629 16.7  16.0   ---  3.09 Ia       -7 IRAS 18294+1636                Masi et al. (2017b)               Wietho et al. (2017)             
+ASASSN-17ii 2017ezc 2017-06-23.41 15:47:28.90 +11:58:40.40 0.03661 17.6  17.0   ---  3.79 Ia       -1 SDSS J154728.82+115836.8       Masi et al. (2017b)               TNS                               
+ASASSN-17in 2017faw 2017-06-30.26 21:17:39.64 -44:54:16.85 0.03000 16.7  16.1   ---  1.06 Ia      -10 GALEXASC J211739.70-445416.1   Brimacombe et al. (2017p)         Uddin et al. (2017c)              
+ASASSN-17io 2017fbh 2017-06-26.32 13:07:48.80 +62:20:49.81 0.02742 17.4  15.8   ---  0.45 Ia      -12 CGCG 316-010                   Brimacombe et al. (2017p)         Brimacombe et al. (2017p)         
+ASASSN-17ip 2017fbj 2017-06-29.96 08:58:20.06 -65:21:50.72 0.01842 16.9  16.8   --- 15.40 Ia      --- ESO 090-G011                   Brimacombe et al. (2017p)         This Work                         
+ASASSN-17iq 2017fbp 2017-07-01.42 03:17:27.84 -00:05:08.66 0.02289 16.8  15.4   --- 36.50 Ia      -14 UGC 02645                      Brimacombe et al. (2017p)         Hosseinzadeh et al. (2017e)       
+ASASSN-17ir 2017fbr 2017-06-25.43 15:40:59.65 +51:26:16.04 0.03703 17.3  17.3   ---  0.51 Ia        0 2MASX J15405965+5126159        Brimacombe et al. (2017p)         Brimacombe et al. (2017p)         
+ASASSN-17is 2017fbu 2017-07-02.41 02:11:06.94 +03:50:36.64 0.01086 16.6  16.0   --- 36.10 II      --- IC 0211                        Brimacombe et al. (2017p)         Rodriguez & Prieto (2017)         
+ASASSN-17it 2017fby 2017-07-01.58 01:32:50.07 -12:36:13.46 0.04351 17.1  16.7   ---  2.21 Ia        0 2MASX J01325005-1236127        Brimacombe et al. (2017p)         Strader et al. (2017)             
+ASASSN-17je 2017ffq 2017-07-10.16 17:40:14.50 -58:25:57.11 0.01272 15.9  15.4   ---  1.70 II      --- 2MASX J17401447-5825586        Hosseinzadeh et al. (2017e)       Rodriguez & Prieto (2017)         
+ASASSN-17jl 2017foy 2017-07-21.26 20:15:25.46 -37:30:42.19 0.02035 17.0  16.0   ---  0.80 Ia       -1 ESO 340-G007                   Strader et al. (2017)             Strader et al. (2017)             
+ASASSN-17jm 2017fqf 2017-07-24.36 02:06:14.75 +09:38:57.16 0.03086 16.8  16.7   ---  9.99 Ia       -3 CGCG 413-042                   Strader et al. (2017)             Uddin et al. (2017c)              
+ASASSN-17jo 2017fqh 2017-07-23.36 02:42:59.07 -10:07:24.96 0.05376 17.0  16.8   ---  6.52 Ia      --- 2MASX J02425942-1007293        Strader et al. (2017)             Uddin et al. (2017c)              
+ASASSN-17jp 2017fqk 2017-07-24.37 02:54:02.09 +02:58:07.72 0.01015 17.1  16.5   --- 26.00 II      --- NGC 1137                       Strader et al. (2017)             Uddin et al. (2017c)              
+ASASSN-17jq 2017fra 2017-07-25.34 15:31:51.53 +37:24:44.64 0.03000 16.9  15.8   ---  1.84 Ia-91T  -10 SDSS J153151.40+372445.8       Strader et al. (2017)             Uddin et al. (2017c)              
+ASASSN-17jt 2017frb 2017-07-25.56 21:11:36.83 +11:29:50.06 0.02938 17.0  16.4   ---  1.49 Ia        5 CGCG 426-012                   Uddin et al. (2017c)              Uddin et al. (2017c)              
+ASASSN-17jw 2017frh 2017-07-23.30 14:49:37.70 +18:41:59.71 0.03219 16.6  16.4   ---  0.36 Ia       -9 SDSS J144937.71+184159.5       Uddin et al. (2017c)              TNS                               
+ASASSN-17jz 2017fro 2017-07-27.37 17:19:55.85 +41:40:49.33 0.16400 17.0  16.2   ---  0.14 SLSN-II --- SDSS J171955.84+414049.4       Brimacombe et al. (2017q)         This Work                         
+ASASSN-17ka 2017frr 2017-07-27.23 01:20:55.50 -43:08:53.52 0.02700 16.5  15.8   ---  7.52 Ia        0 ESO 244-G 019                  Uddin et al. (2017c)              Uddin et al. (2017c)              
+ASASSN-17kf 2017fvl 2017-08-01.62 02:55:42.63 +75:09:15.52 0.01434 16.1  15.7   ---  0.40 Ia        0 UGC 02358                      Farfan et al. (2017)              TNS                               
+ASASSN-17kr 2017gas 2017-08-10.41 20:17:11.32 +58:12:07.99 0.01100 16.0  15.5   ---  1.84 IIn     --- 2MASX J20171114+5812094        Brimacombe et al. (2017q)         TNS                               
+ASASSN-17ks 2017gat 2017-08-13.33 23:53:17.03 -32:46:32.84 0.02310 16.7  16.1   ---  1.30 Ic       -3 GALEXASC J235316.77-324634.3   Brimacombe et al. (2017q)         Brimacombe et al. (2017q)         
+ASASSN-17kt 2017gav 2017-08-12.33 17:03:21.18 +45:24:48.46 0.03300 16.9  16.9   ---  1.58 Ia      --- SDSS J170321.30+452447.5       Brimacombe et al. (2017q)         Balam et al. (2017)               
+ASASSN-17kw 2017gbk 2017-08-15.41 06:11:11.77 -33:21:00.29 0.03300 16.5  16.2   --- 14.84 Ia       -7 LEDA 075547                    Brimacombe et al. (2017q)         Brimacombe et al. (2017q)         
+ASASSN-17kx 2017gbv 2017-08-16.39 03:42:01.37 -39:19:56.10 0.04200 17.2  16.3   ---  0.20 Ic       -3 ESO 301- G026                  Brimacombe et al. (2017q)         Brimacombe et al. (2017q)         
+ASASSN-17kz 2017gea 2017-08-17.51 02:44:57.29 +34:05:40.02 0.03180 17.1  16.2   ---  5.33 Ia      --- KUG 0241+338                   Brimacombe et al. (2017r)         TNS                               
+ASASSN-17lj 2017gjd 2017-08-29.01 20:03:44.88 -27:59:17.99 0.02002 16.5  15.5   ---  1.40 Ia      --- 2MASX J20034478-2759181        Brimacombe et al. (2017s)         TNS                               
+ASASSN-17ll 2017glb 2017-08-28.62 04:51:27.75 -16:57:38.27 0.03709 17.1  17.1   ---  1.61 Ia      --- 2MASX J04512765-1657381        Brimacombe et al. (2017s)         TNS                               
+ASASSN-17lm 2017gkt 2017-08-27.35 23:36:25.94 +27:23:54.24 0.03046 17.1  16.7   ---  0.81 Ia        3 2MASX J23362597+2723541        Brimacombe et al. (2017s)         TNS                               
+ASASSN-17lx 2017gqe 2017-09-04.31 07:23:35.44 -52:38:13.09 0.03352 16.8  16.7   ---  8.95 Ia      --- FAIRALL 0830                   Brimacombe et al. (2017t)         Wang et al. (2017)                
+ASASSN-17lz 2017grw 2017-09-11.99 15:57:29.74 +15:52:21.32 0.01741 16.5  15.4   ---  0.51 Ia       -7 NGC 6018                       Brimacombe et al. (2017t)         TNS                               
+ASASSN-17mf 2017gsu 2017-09-12.03 21:02:21.64 -54:35:18.53 0.04340 17.5  16.7   ---  0.67 Ia      --- ESO 187-G047                   Brimacombe et al. (2017t)         This Work                         
+ASASSN-17mh 2017guh 2017-09-18.32 05:03:13.14 -22:49:59.16 0.01543 15.5  15.1   ---  0.30 Ia       -8 ESO 486- G019                  Brimacombe et al. (2017u)         TNS                               
+ASASSN-17ms 2017gvp 2017-09-23.49 23:41:46.78 -01:21:02.56 0.02253 17.1  16.1   ---  7.47 Ia       -9 UCG 12739                      Brimacombe et al. (2017u)         TNS                               
+ASASSN-17mz 2017haf 2017-09-30.50 23:56:21.85 +32:27:24.08 0.00940 16.0  15.3   ---  4.27 Ia       -3 KUG 2353+321                   Kostrzewa-Rutkowska et al. (2017) TNS                               
+ASASSN-17nb 2017hbg 2017-09-25.59 07:27:37.32 +35:36:30.64 0.01600 17.3  16.1   --- 10.11 II       -7 SDSS J072737.90+353637.7       Kostrzewa-Rutkowska et al. (2017) TNS                               
+ASASSN-17nc 2017hdn 2017-10-08.19 03:35:32.64 -61:16:46.63 0.02700 16.5  15.6  15.7  3.18 Ia       -3 CGCG 225-050                   Kostrzewa-Rutkowska et al. (2017) Kankare et al. (2017b)            
+ASASSN-17nf 2017hfv 2017-10-10.62 07:41:26.05 +18:43:45.30 0.02460 16.5  16.5   ---  1.86 Ia       -6 SDSS J074126.13+184343.7       Brimacombe et al. (2017v)         TNS                               
+ASASSN-17ng 2017hgz 2017-10-10.02 21:48:20.11 -34:57:10.40 0.01615 15.4  14.9  15.1  9.39 Ia       -1 NGC 7130                       Brimacombe et al. (2017v)         Kankare et al. (2017b)            
+ASASSN-17nn 2017hks 2017-10-09.12 21:17:59.64 -45:10:00.55 0.05200 17.3  17.2  18.3  5.23 Ia-91T  --- GALEXASC J211759.12-451005.4   Brimacombe et al. (2017v)         TNS                               
+ASASSN-17ny 2017hpi 2017-10-26.29 08:15:43.38 -28:51:19.84 0.00566 15.8  15.5   ---  5.24 II      --- AM 0813-284                    Brimacombe et al. (2017x)         TNS                               
+ASASSN-17nz 2017hpj 2017-10-24.19 23:54:20.56 -17:18:21.06 0.00566 17.0  16.2  16.7  6.26 Ia      --- MGC -03-60-023                 Brimacombe et al. (2017w)         TNS                               
+ASASSN-17oc 2017htb 2017-11-02.19 22:09:38.69 +17:39:40.10 0.02685 16.7  16.5  16.4  4.70 Ia-91T  --- KUG 2207+174                   Brimacombe et al. (2017x)         TNS                               
+ASASSN-17oe 2017hvt 2017-11-06.28 01:52:45.69 -48:53:24.11 0.02066 16.0  16.0   ---  8.20 Ia       -2 ESO 197- G 009                 Brimacombe et al. (2017x)         TNS                               
+ASASSN-17og 2017hxc 2017-11-08.03 22:06:52.02 -05:57:05.65 0.05895 17.7  17.7   ---  2.33 Ia       -3 2MASX J22065211-0557073        Brimacombe et al. (2017y)         TNS                               
+ASASSN-17oh 2017hxj 2017-11-08.14 23:58:00.74 -41:32:02.90 0.02345 17.6  17.2   ---  8.81 II      --- ESO 293-G 022                  Brimacombe et al. (2017y)         This Work                         
+ASASSN-17oj 2017hxv 2017-11-10.07 21:44:22.94 -29:54:59.29 0.01874 17.3  16.3   --- 33.93 II      --- ESO 466-G 004                  Brimacombe et al. (2017y)         TNS                               
+ASASSN-17ok 2017hxx 2017-11-10.28 21:32:45.58 +24:08:27.92 0.03600 17.0  16.3   ---  0.05 Ia       -6 2MASX J21324559+2408280        Brimacombe et al. (2017y)         TNS                               
+ASASSN-17ol 2017hxy 2017-11-10.19 01:23:01.40 -21:17:31.09 0.06300 17.6  17.0   ---  6.95 Ia-91T  --- 2MASX J01230174-2117364        Brimacombe et al. (2017y)         TNS                               
+ASASSN-17om 2017hxz 2017-11-10.28 03:34:11.10 -13:56:09.38 0.06800 17.8  17.4   ---  8.99 II      --- GALEXASC J033410.88-135616.7   Brimacombe et al. (2017y)         TNS                               
+ASASSN-17on 2017hya 2017-11-10.12 23:20:21.11 -34:37:28.42 0.05520 17.3  16.8   ---  0.99 Ia      --- 2dFGRS S540Z241                Brimacombe et al. (2017y)         TNS                               
+ASASSN-17op 2017hyt 2017-11-11.02 19:03:35.62 -53:10:18.16 0.03619 16.5  16.5   ---  0.28 Ia-91T  --- ESO 184- G 004                 Brimacombe et al. (2017y)         Brimacombe et al. (2017y)         
+ASASSN-17oq 2017hyw 2017-11-10.16 00:58:08.08 -10:07:14.20 0.05102 17.9  17.3  17.4  0.32 Ia      --- MCG -02-03-051                 Brimacombe et al. (2017y)         TNS                               
+ASASSN-17or 2017hyx 2017-11-11.33 04:47:09.01 -16:20:42.58 0.03813 18.0  16.9  17.5  0.67 Ia      --- 2MASX J04470897-1620433        Brimacombe et al. (2017y)         TNS                               
+ASASSN-17os 2017hyy 2017-11-11.33 04:33:05.88 -26:07:41.34 0.03270 17.5   ---  16.4  3.89 II      --- GALEXASC J043306.06-260743.4   Brimacombe et al. (2017y)         TNS                               
+ASASSN-17ot 2017hzv 2017-11-13.33 09:39:12.26 -01:20:22.99 0.03900 16.4  16.1   ---  3.16 Ia      --- SDSS J093912.43-012026.0       Brimacombe et al. (2017y)         This Work                         
+ASASSN-17ow 2017hzw 2017-11-13.41 02:05:18.34 +53:12:13.18 0.05125 17.3  16.8   ---  0.36 Ia+CSM  --- 2MASX J02051837+5312132        Brimacombe et al. (2017y)         Foley et al. (2017)               
+ASASSN-17ox 2017ict 2017-11-11.16 00:25:01.80 -37:59:05.32 0.09500 18.6   ---  18.1 12.18 Ia      --- 2MASX J00250080-3759089        Brimacombe et al. (2017z)         Foley et al. (2017)               
+ASASSN-17pa 2017icv 2017-11-14.10 23:08:08.42 -37:34:11.53 0.06000 18.3  17.5  18.0  1.26 Ia      --- 2MASX J23080839-3734115        Brimacombe et al. (2017z)         Foley et al. (2017)               
+ASASSN-17pe 2017ige 2017-11-17.65 12:25:32.23 +50:02:08.27 0.02432 16.9  16.8   ---  1.08 Ia       10 SBS 1223+503                   Brimacombe et al. (2017z)         TNS                               
+ASASSN-17pg 2017igf 2017-11-18.59 11:42:49.67 +77:22:13.00 0.00562 15.9  14.6  15.1  0.22 Ia       -1 NGC 3901                       Brimacombe et al. (2017z)         TNS                               
+ASASSN-17pi 2017iha 2017-11-19.43 08:57:28.54 +28:37:00.52 0.04793 17.5  16.8  17.3  0.14 Ia        5 2MASX J08572853+2836599        Brimacombe et al. (2017z)         TNS                               
+ASASSN-17pk 2017iji 2017-11-20.64 12:12:26.89 +29:08:57.16 0.01349 15.2  14.8   ---  0.10 Ia       -8 NGC 4174                       Brimacombe et al. (2017aa)        TNS                               
+ASASSN-17pl 2017ijw 2017-11-17.09 21:13:52.95 +02:13:13.38 0.04654 18.6   ---  18.5  0.50 Ia        1 2MASX J21135298+0213137        Brimacombe et al. (2017z)         Brimacombe et al. (2017z)         
+ASASSN-17po 2017ile 2017-11-22.34 05:34:07.04 -29:36:33.37 0.03631 17.8  16.7  16.9  0.22 Ia        2 2MASX J05340703-2936335        Brimacombe et al. (2017aa)        Lopez et al. (2017)               
+ASASSN-17pp 2017ilf 2017-11-20.64 09:16:44.73 +18:57:14.44 0.02970 18.0  16.8  16.7 12.35 Ia       -5 NGC 2803                       Brimacombe et al. (2017aa)        TNS                               
+ASASSN-17pq 2017ilt 2017-11-22.45 00:49:13.38 -25:41:48.34 0.06800 18.4   ---  18.0  0.64 Ia       -6 GALEXASC J004913.42-254148.6   Brimacombe et al. (2017aa)        Lopez et al. (2017)               
+ASASSN-17pr 2017ilu 2017-11-22.21 02:23:09.48 -32:52:20.96 0.06000 18.2  17.2  17.8 12.64 Ia       -5 ESO 355-IG 012                 Brimacombe et al. (2017aa)        Brimacombe et al. (2017aa)        
+ASASSN-17ps 2017ilv 2017-11-23.16 00:53:05.74 -38:56:37.28 0.04300 17.5  16.5  16.3 26.39 Ia       -5 MRSS 295-069991                Brimacombe et al. (2017aa)        Lopez et al. (2017)               
+ASASSN-17pw 2017inu 2017-11-25.27 04:15:22.76 -12:04:13.80 0.06000 18.5  16.8  17.0  0.32 Ia        0 2MASX J04152275-1204138        Brimacombe et al. (2017ab)        TNS                               
+ASASSN-17qc 2017ipi 2017-11-28.35 08:59:39.33 +61:45:18.11 0.03785 18.3  16.5  18.1 10.80 Ia      -12 MCG +10-13-048                 Brimacombe et al. (2017ab)        Lin et al. (2017)                 
+ASASSN-17qg 2017isj 2017-12-02.35 11:10:44.48 +04:50:50.96 0.01933 15.4  15.1   ---  6.71 Ia       -8 UGC 06216                      Brimacombe et al. (2017ab)        TNS                               
+ASASSN-17qp 2017ivv 2017-12-12.04 20:28:49.80 -04:22:57.29 0.00300 14.4   ---  14.2  3.05 II      --- Uncatalogued                   Brimacombe et al. (2017ac)        Brimacombe et al. (2017ac)        
+ASASSN-17qr 2017iwy 2017-12-13.65 12:05:45.50 +10:23:53.88 0.03453 16.9  16.5  16.4  4.10 Ia        8 CGCG 069-050                   Brimacombe et al. (2017ac)        Smith et al. (2017)               
+ASASSN-17qt 2017ixp 2017-12-16.09 02:27:36.59 -20:42:56.20 0.03600 18.0  17.8  17.6  6.93 II       -5 2MASX J02273684-2042513        Brimacombe et al. (2017ac)        Lin et al. (2017)                 
+ASASSN-17qu 2017ixq 2017-12-16.08 02:08:47.73 -44:40:01.34 0.08474 18.3   ---  17.8  7.56 Ia        5 LCRS B020648.6-445405          Brimacombe et al. (2017ac)        Lin et al. (2017)                 
+ASASSN-17qv 2017ixu 2017-12-17.14 03:50:07.08 -35:00:35.39 0.06000 18.3   ---  18.2  1.66 Ia       -2 APMUKS(BJ) B034812.90-350935.8 Brimacombe et al. (2017ac)        Lin et al. (2017)                 
+ASASSN-17qw 2017ixw 2017-12-18.07 02:04:59.73 -41:52:07.10 0.07000 17.9  17.9  17.7  3.21 Ia       -3 LCRS B020256.9-420627          Brimacombe et al. (2017ac)        Lin et al. (2017)                 
+ASASSN-17qx 2017iyk 2017-12-18.10 03:23:28.00 -41:18:19.40 0.07000 17.9  17.8  17.6 19.67 Ia       -2 GALEXMSC J032328.46-411801.1   Brimacombe et al. (2017ad)        TNS                               
+ASASSN-17qy 2017iyl 2017-12-09.45 06:00:15.12 -18:06:10.19 0.02785 16.7  16.3  16.6  9.15 Ia        4 2MASX J06001492-1806013        Brimacombe et al. (2017ac)        TNS                               
+ASASSN-17qz 2017iyw 2017-12-18.3  08:13:30.63 +71:25:45.12 0.02150 15.8  15.4  15.6  4.59 Ia       -2 VII Zw 218                     Brimacombe et al. (2017ad)        Brimacombe et al. (2017ac)        
+ASASSN-17rg 2017jcv 2017-12-23.15 04:20:40.37 -38:14:46.61 0.03400 18.1  16.6  17.8  1.55 II      -12 LCRS B041854.2-382150          Brimacombe et al. (2017ad)        Brimacombe et al. (2017ad)        
+ASASSN-17ri 2017jdx 2017-12-20.09 00:47:56.22 +22:22:23.48 0.01942 17.7  15.6  15.7  1.70 Ia       -4 IC 1586                        Brimacombe et al. (2017ad)        TNS                               
+ASASSN-17rj 2017jdy 2017-12-24.11 03:49:32.82 -26:52:17.83 0.06600 18.0  18.2  17.7  0.20 Ia       -1 Uncatalogued                   Brimacombe et al. (2017ad)        Lin et al. (2017)                 
+ASASSN-17rl 2017jea 2017-12-23.25 07:15:00.04 +46:22:43.79 0.04500 17.6  16.7  16.7  1.97 Ib/c    -20 2MASX J07150015+4622455        Brimacombe et al. (2017ad)        Bose et al. (2018c)               
+ASASSN-17rm 2017jef 2017-12-26.65 15:05:21.04 +12:47:03.52 0.02894 16.8  16.2   ---  2.00 Ia       -9 2MASX J15052096+1247036        Brimacombe et al. (2018)          Bose et al. (2017b)               
+ASASSN-17rn 2017jeg 2017-12-26.34 08:36:24.64 +26:07:24.64 0.07000 18.2  17.8   ---  0.14 Ia        0 SDSS J083624.62+260724.5       Brimacombe et al. (2017ad)        Bufano et al. (2018)              
+ASASSN-17ro 2017jeh 2017-12-26.30 07:30:04.07 +54:26:11.18 0.02096 17.3  16.0  16.2  7.86 Ia       -8 CGCG 261-072                   Brimacombe et al. (2017ad)        Bose et al. (2017b)               
+ASASSN-17rr 2017jet 2017-12-26.50 08:37:00.96 +81:41:45.56 0.04000 16.8  16.4   ---  0.51 Ia-91T   -1 GALEXASC J083701.19+814145.7   Brimacombe et al. (2017ad)        Bose et al. (2017b)               
+ASASSN-17rs 2017jgm 2017-12-29.59 11:02:38.61 -07:31:11.50 0.02979 16.6  16.1  16.5 37.95 Ia       -1 MCG -01-28-022                 Brimacombe et al. (2018)          TNS                               
+ASASSN-17ru 2017jyq 2017-12-23.07 03:10:33.80 -43:29:34.40 0.04000 17.8  16.6  16.7  1.61 Ia       -7 GALEXASC J031033.89-432934.2   Brimacombe et al. (2018)          Berton et al. (2018)                

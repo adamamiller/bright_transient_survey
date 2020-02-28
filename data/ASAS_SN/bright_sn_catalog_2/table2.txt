@@ -1,0 +1,131 @@
+Title: The ASAS-SN Bright Supernova Catalog -- II. 2015
+Authors: T. W.-S. Holoien et al.
+Table: Table 2 - Non-ASAS-SN Supernovae
+================================================================================
+Byte-by-byte Description of file: table2.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label         Explanations
+--------------------------------------------------------------------------------
+   1- 29 A29    ---      SNName        Name of supernova
+  31- 36 A6     ---      IAUName       IAU name of supernova (1)
+  38- 51 A14    ---      DiscDate      Discovery Date
+  53- 63 F11.2  ---      RA            Right Ascension (2)
+  65- 75 F11.1  ---      Dec           Declination (2)
+  77- 83 F7.5   ---      Redshift      Redshift of supernova
+  85- 88 F4.1   mag      PeakMag       Peak magnitude (3)
+  90- 94 A5     arcsec   Offset        Offset from host nucleus (4)
+  96-102 A7     ---      Type          Type of supernova
+ 104-131 A28    ---      HostName      Host galaxy name
+ 133-142 A10    ---      DiscoveredBy  Who discovered the supernova (5)
+ 144-146 A3     ---      Recovered     Recovered independently by ASAS-SN or not (6)
+--------------------------------------------------------------------------------
+Note (1):   IAU name is not provided if one was not given to the supernova. In some cases the IAU name may also be the primary supernova name.
+Note (2):   Right ascension and declination are given in the J2000 epoch.
+Note (3):   All magnitudes are taken from D. W. Bishop’s Bright Supernova website, as described in the text, and may be from different filters.
+Note (4):   Offset indicates the offset of the SN in arcseconds from the coordinates of the host nucleus, taken from NED.
+Note (5):   “Amateurs” indicates discovery by any number of non-professional astronomers, as described in the text.
+Note (6):   Indicates whether the supernova was independently recovered in ASAS-SN data or not.
+--------------------------------------------------------------------------------
+2015B                         2015B  2015-01-05.123       12.00       -12.0 0.01544 15.0 10.20 Ia      NGC 4782                     Amateurs   Yes 
+LSQ15z                        ---    2015-01-07.00        13.00        -8.0 0.07000 17.0 3.06  Ia      2MASX J13082255-0844002      LSQ        No  
+2015C                         2015C  2015-01-07.604       13.00       -14.0 0.00964 16.4 12.60 II      IC 4221                      LOSS       No  
+2015A                         2015A  2015-01-09.636        9.00        35.0 0.02339 16.6 24.70 Ia      NGC 2955                     Amateurs   Yes 
+PSN J13522411+3941286         ---    2015-01-09.897       13.00        39.0 0.00722 15.6 18.65 IIn     NGC 5337                     Amateurs   Yes 
+2015W                         2015W  2015-01-12.276        6.00        13.0 0.01329 16.2 34.89 II      UGC 03617                    LOSS       Yes 
+2015E                         2015E  2015-01-13.420        3.00         0.0 0.04145 16.1 1.61  Ia      KUG 0311+000                 KISS       No  
+CSS150120:053013-165338       ---    2015-01-20.00         5.00       -16.0 0.02000 17.0 N/A   II      None                         CRTS       No  
+PSN J11105565+5322493         ---    2015-01-23.140       11.00        53.0 0.00955 17.0 29.15 II      NGC 3549                     CRTS       No  
+PSN J10491665-1938253         ---    2015-02-02.00        10.00       -19.0 0.01403 16.8 12.04 IIP     ESO 569-G012                 Amateurs   No  
+2015bh                        2015bh 2015-02-07.390        9.00        33.0 0.00649 15.4 16.40 IIn/LBV NGC 2770                     CRTS       Yes 
+2015H                         2015H  2015-02-10.545       10.00       -21.0 0.01246 16.0 33.11 Ia-02cx NGC 3464                     Amateurs   Yes 
+PSN J13471211-2422171         ---    2015-02-12.520       13.00       -24.0 0.01991 15.1 6.08  Ia      ESO 509-G108                 Amateurs   Yes 
+PSN J10234760+3348477         ---    2015-02-13.312       10.00        33.0 0.03389 17.0 23.02 IIb     UGC 05623                    Amateurs   No  
+2015U                         2015U  2015-02-13.338        7.00        33.0 0.01379 14.9 5.92  Ibn     NGC 2388                     LOSS       Yes 
+iPTF15ku                      2015bq 2015-02-14.43        12.00        31.0 0.02818 16.9 15.00 Ia-91T  KUG 1232+315                 PTF        Yes 
+CSS150214:140955+173155       2015bo 2015-02-14.440       14.00        17.0 0.01620 16.8 59.08 Ia-91bg NGC 5490                     CRTS       Yes 
+PSN J19235601-5955321         ---    2015-02-16.642       19.00       -59.0 0.01308 15.1 18.60 Ia      NGC 6782                     Amateurs   No  
+PSN J20580766-5147074         ---    2015-02-22.129       20.00       -51.0 0.01567 16.3 10.20 IIb     FAIRALL 0927                 Amateurs   No  
+2015X                         2015X  2015-02-23.216        7.00        29.0 0.01072 16.0 6.24  II      UGC 03777                    LOSS       No  
+2015F                         2015F  2015-03-09.789        7.00       -69.0 0.00489 12.9 90.04 Ia      NGC 2442                     Amateurs   Yes 
+PS15mb                        ---    2015-03-10.289        8.00        15.0 0.02872 15.8 1.26  Ia      SDSS J085940.13+151113.5     Pan-STARRS Yes 
+PSN J08593491+4555343         ---    2015-03-12.810        8.00        45.0 0.02810 15.8 5.66  Ia      UGC 04709                    Amateurs   Yes 
+SMTJ10310056-3658262          ---    2015-03-13.00        10.00       -36.0 0.03044 16.5 7.98  Ia-91T  ESO 375-G052                 SkyMapper  No  
+LSQ15xp                       ---    2015-03-16.00        11.00       -16.0 0.01226 16.7 12.60 IIP     MCG -03-30-002               LSQ        Yes 
+2015bp                        2015bp 2015-03-16.490       15.00         1.0 0.00407 13.6 39.12 Ia-91bg NGC 5839                     CRTS       Yes 
+PS15si                        ---    2015-03-23.00        11.00        -4.0 0.05390 16.9 1.90  IIn     GALEXASC J111023.09-042132.8 Pan-STARRS Yes 
+2015G                         2015G  2015-03-23.788       20.00        66.0 0.00475 15.5 85.80 Ibn     NGC 6951                     Amateurs   No  
+PSN J13332289+5843315         ---    2015-03-25.00        13.00        58.0 0.03023 16.9 29.15 Ia      2MASX J13332590+5843195      CRTS       No  
+2015V                         2015V  2015-04-04.516       17.00        36.0 0.00457 15.1 8.13  IIP     UGC 11000                    LOSS       Yes 
+LSQ15adm                      ---    2015-04-05.00        20.00       -58.0 0.07300 16.7 10.26 Ia+CSM  AM 2010-581                  LSQ        Yes 
+2015Y                         2015Y  2015-04-11.184        9.00        25.0 0.00817 15.9 10.31 IIb     NGC 2735                     LOSS       Yes 
+2015K                         2015K  2015-04-25.786       23.00        23.0 0.01018 16.1 17.00 Ic      NGC 7712                     Amateurs   No  
+MASTER OT J074610.09-712224.9 ---    2015-04-26.752        7.00       -71.0 0.01900 16.3 14.97 Ia      2MFGC 06148                  MASTER     Yes 
+SMTJ07350518-6907531          2015J  2015-04-27.900        7.00       -69.0 0.00540 16.0 99.90 IIn     CXO J073447.9-690712         SkyMapper  No  
+2015I                         2015I  2015-05-02.482        7.00        23.0 0.00759 14.0 78.77 Ia      NGC 2357                     Amateurs   No  
+PS15ahs                       ---    2015-05-02.523       17.00        43.0 0.03100 15.9 4.27  Ia      MCG +07-37-011               Pan-STARRS Yes 
+PSN J18285823+2254106         ---    2015-05-12.042       18.00        22.0 0.01383 16.3 8.54  IIb     NGC 6641                     Amateurs   Yes 
+2015M                         2015M  2015-05-13.520       13.00        27.0 0.02300 15.7 0.30  Ia-91T  COMAi J130032.301+275841.02  Amateurs   Yes 
+PSN J16283836+3932552         ---    2015-05-15.271       16.00        39.0 0.03035 16.3 8.72  Ia-91bg NGC 6166                     Amateurs   Yes 
+PSN J16025128+4713292         ---    2015-05-19.701       16.00        47.0 0.02025 15.6 16.04 Ia      UGC 10156 NED01              Amateurs   Yes 
+Gaia15agm                     ---    2015-06-01.619       23.00       -43.0 0.02900 16.1 7.26  Ia      ESO 241-G005                 GAIA       No  
+PSN J14372160+3634018         ---    2015-06-10.953       14.00        36.0 0.01409 16.3 7.62  II      NGC 5695                     Amateurs   Yes 
+2015Q                         2015Q  2015-06-17.299       11.00        55.0 0.00803 16.1 14.06 Ib      NGC 3888                     Amateurs   Yes 
+MASTER OT J114925.48-050713.8 ---    2015-06-29.773       11.00        -5.0 0.00557 13.4 15.67 Ia      NGC 3915                     MASTER     Yes 
+2015ai                        2015ai 2015-07-02.240       13.00        61.0 0.03070 16.2 21.38 Ia      UGC 08734                    Amateurs   Yes 
+2015N                         2015N  2015-07-06.425       21.00        43.0 0.01859 16.5 38.43 Ia      UGC 11797                    LOSS       Yes 
+Supernova in Mrk 477          ---    2015-07-08.310       14.00        53.0 0.03773 16.9 2.22  Ia      Mrk 477                      HST        No  
+PSN J17292918+7542390         ---    2015-07-09.993       17.00        75.0 0.00438 16.1 38.60 II      NGC 6412                     Amateurs   Yes 
+PSN J22460504-1059484         ---    2015-07-10.655       22.00       -10.0 0.00895 16.2 24.84 Ib      NGC 7371                     Amateurs   Yes 
+2015ab                        2015ab 2015-07-10.744        2.00        20.0 0.01374 14.7 10.82 Ia      NGC 938                      Amateurs   Yes 
+PSN J20435314+1230304         ---    2015-07-11.017       20.00        12.0 0.01551 15.8 15.65 Ia      NGC 6956                     Amateurs   Yes 
+2015at                        2015at 2015-07-11.340       13.00         9.0 0.02358 15.9 6.20  II      IC 0900                      Amateurs   No  
+2015aw                        2015aw 2015-07-12.660        2.00       -52.0 0.01962 15.9 21.26 Ia-91T  ESO 197-G024                 Amateurs   Yes 
+PSN J02513304+3730434         ---    2015-07-12.735        2.00        37.0 0.02000 17.0 7.07  Ib/Ic   KUG 0248+373                 Amateurs   No  
+2015ac                        2015ac 2015-07-28.001       23.00        33.0 0.01707 16.2 3.16  Ia-91bg UGC 12474                    Amateurs   Yes 
+2015ad                        2015ad 2015-07-29.124        2.00        14.0 0.02415 16.9 9.49  Ia      UGC 02282                    Amateurs   No  
+2015ae                        2015ae 2015-08-06.680       23.00        29.0 0.01724 17.0 18.38 II      NGC 7753                     Amateurs   No  
+MASTER OT J230024.63+013736.8 2015ah 2015-08-06.902       23.00         1.0 0.01613 15.9 13.87 Ib      UGC 12295                    MASTER     Yes 
+MASTER OT J233743.22-473039.3 ---    2015-08-17.182       23.00       -47.0 0.01101 16.3 20.00 Ia      ESO 240-G010                 MASTER     Yes 
+2015ak                        2015ak 2015-08-18.540       22.00       -65.0 0.01037 15.2 18.97 Ia      ESO 108-IG021                Amateurs   Yes 
+PSN J22412689+3917220         ---    2015-08-19.067       22.00        39.0 0.01729 16.5 11.66 Ia      UGC 12156                    Amateurs   Yes 
+PSN J02331624+1915252         ---    2015-08-20.439        2.00        19.0 0.01350 15.7 2.35  IIn     GALEXASC J023317.19+191543.8 Amateurs   No  
+PSN J00275992+3045595         ---    2015-08-28.397        0.00        30.0 0.02112 16.4 6.09  Ia      UGC 00276                    Amateurs   No  
+2015aj                        2015aj 2015-09-02.100        6.00        74.0 0.01765 17.0 33.29 IIP     UGC 03460                    Amateurs   No  
+PSN J22411479-2147421         ---    2015-09-06.309       22.00       -21.0 0.01495 15.5 2.21  Ib      NGC 7349                     Amateurs   Yes 
+2015ap                        2015ap 2015-09-08.469        2.00         6.0 0.01138 15.2 33.06 Ib      IC 1776                      LOSS       Yes 
+PSN J23523718+1433092         ---    2015-09-10.424       23.00        14.0 0.02658 16.9 12.26 Ia      UGC 12822                    Amateurs   No  
+PSN J02524671+4656470         ---    2015-09-12.010        2.00        46.0 0.02809 16.3 36.62 Ia      UGC 02351                    Amateurs   No  
+2015an                        2015an 2015-09-13.150        8.00       -18.0 0.00817 14.7 71.11 II-pec  IC 2367                      Amateurs   Yes 
+PSN J22343424+0548478         ---    2015-09-17.204       22.00         5.0 0.02775 16.6 16.25 II      NGC 7312                     Amateurs   No  
+2015aq                        2015aq 2015-09-21.072        9.00        34.0 0.00550 14.9 43.05 II      UGC 05015                    MASTER     Yes 
+PSN J10520833+3256394         ---    2015-09-27.811       10.00        32.0 0.00529 16.7 45.65 IIb     NGC 3430                     Amateurs   No  
+LSQ15bci                      ---    2015-09-30.000        1.00       -31.0 0.03563 17.0 14.40 Ia      MCG -05-04-023               LSQ        No  
+PNV J01315945+3328458         ---    2015-10-02.922        1.00        33.0 0.01452 16.1 18.86 IIP     NGC 582                      Amateurs   No  
+2015ay                        2015ay 2015-10-03.835        1.00        13.0 0.01407 16.7 12.49 II      UGC 00722                    Amateurs   Yes 
+MASTER OT J233328.09-015847.0 ---    2015-10-05.069       23.00        -1.0 0.01736 16.7 38.82 II      UGC 12661                    MASTER     No  
+2015ao                        2015ao 2015-10-06.550        1.00       -36.0 0.01913 16.1 19.22 Ia-91bg ESO 354-G003                 Amateurs   Yes 
+PS15cjr                       ---    2015-10-12.433        2.00         1.0 0.02289 16.7 13.86 IIb     UGC 02120                    Pan-STARRS No  
+PS15cku                       ---    2015-10-16.382        1.00         3.0 0.02300 16.5 9.42  Ia      2MASX J01242239+0335168      Pan-STARRS Yes 
+MASTER OT J103747.94-270507.2 ---    2015-10-20.094       10.00       -27.0 0.00756 16.5 16.64 Ia      IC 2597                      MASTER     No  
+PSN J02004778+1641365         ---    2015-11-01.910        2.00        16.0 0.02700 16.2 4.47  Ia      2MASX J02004757+1641401      Amateurs   No  
+PSN J21312375+4336312         ---    2015-11-07.790       21.00        43.0 0.01841 16.4 14.56 Ia      2MASX J21312321+4336182      Amateurs   No  
+PSN J09100885+5003396         ---    2015-11-08.170        9.00        50.0 0.03445 16.7 12.04 Ia-09dc UGC 04812                    Amateurs   Yes 
+CSS151109:101502+074830       ---    2015-11-09.00        10.00         7.0 0.02829 16.3 8.88  Ia      SDSS J101502.54+074826.6     CRTS       No  
+2015ar                        2015ar 2015-11-11.758        1.00        32.0 0.01701 15.4 74.03 Ia      NGC 383                      Amateurs   Yes 
+PSN J07051005+2102327         ---    2015-11-12.092        7.00        21.0 0.08000 16.5 10.20 Ia      2MASX J07051014+2102233      Amateurs   No  
+2015as                        2015as 2015-11-15.778       10.00        51.0 0.00365 14.0 19.42 II      UGC 05460                    Amateurs   Yes 
+2015bb                        2015bb 2015-11-16.817       14.00        40.0 0.01635 16.0 13.42 Ic      NGC 5772                     Amateurs   No  
+PS15cwx                       ---    2015-11-17.441        5.00         7.0 0.04600 17.0 8.16  Ia-91T  2MFGC 04279                  Pan-STARRS No  
+PSN J09195286-6854419         ---    2015-11-23.063        9.00       -68.0 0.01121 16.6 17.49 II      ESO 061-G008                 Amateurs   Yes 
+MASTER OT J215050.94-702028.9 ---    2015-11-27.871       21.00       -70.0 0.01234 14.5 34.05 Ia      NGC 7123                     MASTER     Yes 
+2015ba                        2015ba 2015-11-28.807       14.00        49.0 0.00795 16.1 45.91 II      IC 1029                      Amateurs   Yes 
+2015az                        2015az 2015-11-30.306        3.00        40.0 0.02012 14.6 1.53  Ia      IC 0290                      Amateurs   Yes 
+2015bd                        2015bd 2015-12-07.843       11.00        -1.0 0.01861 15.9 8.54  Ia-91T  NGC 3662                     Amateurs   No  
+PSN J15502534+1856075         ---    2015-12-07.865       15.00        18.0 0.01276 16.9 39.56 IIP     NGC 6004                     Amateurs   No  
+CSS151209:232318+164003       ---    2015-12-09.00        23.00        16.0 0.04900 16.6 2.10  Ia      GALEXMSC J232317.78+164003.8 CRTS       No  
+2015bf                        2015bf 2015-12-12.468       23.00        15.0 0.01423 15.9 20.40 IIn     NGC 7653                     Amateurs   Yes 
+MASTER OT J141023.42-431843.7 ---    2015-12-15.066       14.00       -43.0 0.00591 14.4 48.28 Ib      NGC 5483                     MASTER     No  
+PSN J02003208-5810410         ---    2015-12-25.422        2.00       -58.0 0.02037 16.7 7.07  IIP     2MASX J02003186-5810482      Amateurs   No  
+PSN J01534240+2956107         ---    2015-12-27.182        1.00        29.0 0.02554 16.4 10.97 Ia      UGC 01359                    Amateurs   Yes 
+2015bm                        2015bm 2015-12-28.091       12.00        19.0 0.01500 16.9 9.43  II      SDSS J120759.79+194434.9     Amateurs   No  
+CSS151230:044008+123051       ---    2015-12-30.00         4.00        12.0 0.02646 16.8 77.64 Ia      UGC 03123                    CRTS       No  

@@ -1,0 +1,172 @@
+Title: The ASAS-SN Bright Supernova Catalog -- IV. 2017
+Authors: T. W.-S. Holoien et al.
+Table: Table 2 - Non-ASAS-SN Supernovae
+================================================================================
+Byte-by-byte Description of file: table2.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label         Explanations
+--------------------------------------------------------------------------------
+   1- 29 A29    ---      SNName        Name of supernova
+  31- 37 A7     ---      IAUName       IAU name of supernova
+  39- 51 A13    ---      DiscDate      Discovery Date
+  53- 63 A11    ---      RA            Right Ascension (1)
+  65- 76 A12    ---      Dec           Declination (1)
+  78- 85 F8.6   ---      Redshift      Redshift of supernova
+  87- 90 A4.1   mag      PeakMag       Peak magnitude from Latest Supernovae website (2)
+  92- 96 A5.1   mag      PeakMagV      Peak ASAS-SN V-band magnitude (3)
+  98-102 A5.1   mag      PeakMagg      Peak ASAS-SN g-band magnitude (3)
+ 104-109 F6.2   arcsec   Offset        Offset from host nucleus (4)
+ 111-117 A7     ---      Type          Type of supernova
+ 119-146 A28    ---      HostName      Host galaxy name
+ 148-218 A71    ---      DiscoveredBy  Discovery group (5)
+ 220-222 A3     ---      Recovered     Recovered in ASAS-SN data? (6)
+--------------------------------------------------------------------------------
+Note (1):   Right ascension and declination are given in the J2000 epoch.
+Note (2):   Peak magnitudes are taken from D. W. Bishop’s Bright Supernova website, as described in the text, and may be from different filters.
+Note (3):   Peak V- and g-band magnitudes are measured from ASAS-SN data. "---" indicates the supernova was not detected in that filter in ASAS-SN data.
+Note (4):   Offset indicates the offset of the SN in arcseconds from the coordinates of the host nucleus, taken from NED.
+Note (5):   “Amateurs” indicates discovery by any number of non-professional astronomers, as described in the text. Names of amateur discoverers are listed in parentheses.
+Note (6):   Indicates whether the supernova was independently recovered in ASAS-SN data or not.
+--------------------------------------------------------------------------------
+ATLAS17abh                    2017ae  2017-01-04.29 02:05:50.62 +18:22:30.23 0.022000 16.4  16.2   ---   4.74 Ia      GALEXASC J020550.53+182234.8 ATLAS                                                                   Yes 
+2017hr                        2017hr  2017-01-06.69 12:06:27.39 +28:08:19.70 0.029300 16.6  17.0   ---   1.38 Ia      SDSS J120627.46+280820.6     Amateurs (K. Itagaki)                                                   Yes 
+PS17hj                        2017jd  2017-01-09.21 23:34:36.47 -04:32:04.32 0.007368 14.6   ---   ---   1.26 Ia      IC 5334                      Pan-STARRS                                                              No  
+2017hn                        2017hn  2017-01-09.41 13:07:39.46 +06:20:14.60 0.023853 16.1  15.8   ---   4.66 Ia      UGC 08204                    Amateurs (R. Gagliano, R. Post, E. Weinberg, J. Newton, and T. Puckett) Yes 
+ATLAS17ajn                    2017lv  2017-01-14.63 11:44:26.54 -28:27:27.22 0.028717 17.0  16.7   ---  18.48 Ia      ESO 440-G001                 ATLAS                                                                   Yes 
+MASTER OT J081506.13+381123.3 ---     2017-01-16.02 08:15:6.13  +38:11:23.30 0.054000 16.9  16.6   ---  11.35 Ia      2MASX J08150520+3811205      MASTER                                                                  No  
+ATLAS17air                    2017jl  2017-01-16.22 00:57:31.9  +30:11:06.83 0.016331 14.6  15.3   ---   5.88 Ia      2MASX J00573150+3011098      ATLAS                                                                   Yes 
+2017mf                        2017mf  2017-01-21.09 14:16:31.0  +39:35:12.02 0.025678 16.0  15.9   ---  12.60 Ia      NGC 5541                     Amateurs (F. Briganti and P. Campaner)                                  Yes 
+PTSS-17dfc                    2017ms  2017-01-21.71 10:26:42.37 +36:40:50.62 0.024639 15.6  15.7   ---   5.22 Ia      SDSS J102641.99+364053.2     PTSS                                                                    Yes 
+ATLAS17akw                    2017nt  2017-01-23.21 23:53:31.13 +03:44:08.18 0.038800 16.8   ---   ---  34.38 Ia-91T  SSTSL2 J235328.89+034400.1   ATLAS                                                                   No  
+ATLAS17alb                    2017ns  2017-01-23.31 02:49:10.36 +14:36:02.48 0.027900 16.7   ---   ---   2.88 Ia      2MASX J02491020+1436036      ATLAS                                                                   No  
+ATLAS17amz                    2017pn  2017-01-26.31 04:46:24.59 -11:59:18.25 0.014000 16.5  15.8   ---   0.00 IIP     Uncatalogued                 ATLAS                                                                   No  
+ATLAS17auc                    2017zd  2017-01-26.64 13:32:42.09 -21:48:04.35 0.029470 15.9  15.9   ---   1.38 Ia      2MASX J13324217-2148034      ATLAS                                                                   Yes 
+ATLAS17axb                    2017adj 2017-01-30.65 13:43:23.25 -19:56:37.13 0.030000 16.9  16.1   ---   3.84 Ia      GALEXASC J134322.97-195637.5 ATLAS                                                                   Yes 
+Gaia17aiq                     2017ati 2017-02-06.43 09:49:56.7  +67:10:59.56 0.013050 16.0  16.2   ---  38.60 IIb     KUG 0945+674                 Gaia                                                                    Yes 
+DLT17h                        2017ahn 2017-02-08.36 10:37:17.45 -41:37:05.27 0.009255 15.8  15.3   ---  40.32 II      NGC 3318                     DLT40                                                                   Yes 
+MASTER OT J083256.92-035128.1 2017cgr 2017-02-11.93 08:32:56.92 -03:51:28.10 0.030584 16.5  16.5   ---   5.82 Ia      2MASX J08325728-0351295      MASTER                                                                  Yes 
+PS17bbn                       2017avj 2017-02-14.58 13:05:3.01  +53:39:33.21 0.029037 17.0  16.7   ---  19.44 Ia-91bg CGCG 270-047                 Pan-STARRS                                                              Yes 
+iPTF17aub                     2017aub 2017-02-15.3  06:40:24.7  +64:33:02.75 0.016000 17.0  16.9   ---  10.02 II      CGCG 308-036                 PTF                                                                     No  
+ATLAS17bam                    2017avl 2017-02-16.32 05:20:47.08 +03:15:24.55 0.027426 16.4  16.4   ---  23.46 Ia      CGCG 421-034                 ATLAS                                                                   Yes 
+Gaia17alp                     2017bif 2017-02-16.59 17:26:27.12 -60:32:39.73 0.019247 17.0  16.6   ---   6.30 II      2MASX J17262669-6032500      Gaia                                                                    No  
+ATLAS17bas                    2017awz 2017-02-17.48 11:07:35.49 +22:51:04.57 0.022090 15.6  15.7   ---   0.54 Ia-91T  SDSS J110735.45+225104.1     ATLAS                                                                   Yes 
+ATLAS17bcy                    2017ays 2017-02-20.57 12:12:45.99 +00:24:28.11 0.020515 17.0  16.9   ---   8.22 II      SDSS J121246.43+002432.8     ATLAS                                                                   Yes 
+ATLAS17bem                    2017bgu 2017-02-22.62 16:55:59.47 +42:33:36.01 0.008503 15.6  16.0   ---   0.66 Ib      2MASX J16555976+4233370      ATLAS                                                                   Yes 
+ATLAS17bja                    2017byz 2017-03-04.44 11:23:30.78 -08:39:11.84 0.012285 15.9  16.1   ---  29.22 II      NGC 3660                     ATLAS                                                                   Yes 
+Gaia17apv                     2017cat 2017-03-06.83 17:58:52.09 +34:00:09.32 0.024894 17.0  16.6   ---  12.60 II      UGC 11076                    Gaia                                                                    Yes 
+2017bzb                       2017bzb 2017-03-07.21 22:57:17.3  -41:00:57.60 0.003132 13.0  13.3   --- 196.37 II      NGC 7424                     Amateurs (S. Parker)                                                    Yes 
+2017bzc                       2017bzc 2017-03-07.22 23:16:14.69 -42:34:10.90 0.005365 12.2  13.5   ---  67.27 Ia      NGC 7552                     Amateurs (S. Parker)                                                    Yes 
+2017cbr                       2017cbr 2017-03-08.63 11:58:46.78 +15:43:08.87 0.017271 16.0  15.7   ---  10.77 Ia      CGCG 098-015                 TNTS                                                                    Yes 
+DLT17u                        2017cbv 2017-03-10.17 14:32:34.42 -44:08:02.74 0.003999 11.5  11.7   --- 160.22 Ia      NGC 5643                     DLT40                                                                   Yes 
+KAIT-17I                      2017cfd 2017-03-16.27 08:40:49.15 +73:29:15.14 0.012085 14.8  14.7   ---   6.36 Ia      IC 0511                      LOSS                                                                    Yes 
+ATLAS17cnz                    2017cfa 2017-03-16.43 09:57:3.89  -07:52:51.14 0.014063 15.9  16.2   ---  11.82 IIP     MCG -01-26-003               ATLAS                                                                   Yes 
+ATLAS17cog                    2017cfc 2017-03-16.57 13:52:39.0  -02:00:08.26 0.024027 16.5  16.0   ---  20.46 Ia      UGC 08783                    ATLAS                                                                   Yes 
+ATLAS17cof                    2017cfb 2017-03-16.58 13:54:6.83  +09:24:45.57 0.022872 15.7  15.3   ---  29.46 Ia      CGCG 073-094                 ATLAS                                                                   Yes 
+PTSS-17nem                    2017cff 2017-03-16.83 13:39:17.0  +35:08:39.03 0.019000 16.9  16.8   ---   2.24 IIP     GALEXASC J133917.08+350841.1 PTSS                                                                    No  
+ATLAS17czi                    2017cik 2017-03-17.34 07:54:13.07 +21:47:36.49 0.015474 16.8  16.6   ---   4.74 IIn     SDSS J075412.99+214729.1     ATLAS                                                                   Yes 
+ATLAS17cpj                    2017cfo 2017-03-17.41 10:38:12.92 +28:07:02.06 0.020000 16.4  16.6   ---   3.06 Ic      SDSS J103812.75+280704.0     ATLAS                                                                   No  
+ATLAS17dbm                    2017cjd 2017-03-19.48 11:50:30.17 -18:35:44.96 0.023000 16.9  17.0   ---   1.56 Ic      GALEXASC J115030.27-183545.2 ATLAS                                                                   Yes 
+ATLAS17dcd                    2017ckf 2017-03-19.59 12:57:49.32 -24:43:10.85 0.050000 17.0  16.7   ---  44.40 Ia      GALEXASC J125749.28-244226.4 ATLAS                                                                   No  
+ATLAS17dcl                    2017cjt 2017-03-20.25 03:42:50.76 -01:52:28.98 0.009376 16.6  16.7   ---  21.69 Ia      GALEX 2692072904051396069    ATLAS                                                                   No  
+ATLAS17dfo                    2017ckq 2017-03-23.44 10:44:25.39 -32:12:32.83 0.009893 14.4  14.3   ---  12.42 Ia      ESO 437-G056                 ATLAS                                                                   Yes 
+2017cjb                       2017cjb 2017-03-23.58 12:53:50.45 +09:42:17.70 0.009443 15.9  16.5   ---  19.38 II      NGC 4779                     Amateurs (K. Itagaki)                                                   Yes 
+Gaia17avd                     2017cop 2017-03-25.57 21:24:3.41  +15:01:19.20 0.030000 16.8  16.5   ---   5.64 Ia      2MASX J21240331+1501244      Gaia                                                                    No  
+PTSS-17ntl                    2017cne 2017-03-27.82 15:08:42.93 +04:08:45.87 0.033808 17.0  16.5   ---   2.34 Ia-91T  2MASX J15084277+0408473      PTSS                                                                    Yes 
+ATLAS17dkv                    2017cug 2017-04-04.32 07:57:49.86 -21:41:09.30 0.024000 16.7  16.7   ---   3.42 Ia      CGMW 2-1714                  ATLAS                                                                   No  
+MASTER OT J141551.21-480802.6 ---     2017-04-09.15 14:15:51.21 -48:08:02.60 0.013753 16.4  16.0   ---  77.32 Ia      NGC 5516                     MASTER                                                                  No  
+DLT17ar                       2017cyy 2017-04-12.75 09:36:36.2  -63:56:54.21 0.009777 14.9  14.7   ---  27.36 Ia      ESO 091-G015                 DLT40                                                                   Yes 
+2017czd                       2017czd 2017-04-12.76 14:51:47.05 +43:38:40.96 0.008410 15.1  15.7   ---   6.00 II      UGC 09567                    Amateurs (K. Itagaki)                                                   Yes 
+ATLAS17dzg                    2017dae 2017-04-15.32 09:08:34.75 +48:36:26.06 0.052205 16.8  17.2   ---   1.02 Ia      SDSS J090834.64+483625.9     ATLAS                                                                   No  
+ATLAS17eac                    2017dcc 2017-04-16.45 12:49:4.89  -12:12:22.42 0.024500 16.3  16.3   ---   8.40 Ic      LCRS B124628.6-115605        ATLAS                                                                   Yes 
+Gaia17bat                     2017dei 2017-04-17.03 20:49:48.85 -25:42:02.56 0.019804 16.4  16.4   ---  22.92 Ia      ESO 529-G005                 Gaia                                                                    Yes 
+ATLAS17eum                    2017dik 2017-04-20.36 09:57:54.0  -10:38:31.51 0.050000 16.3  17.3   ---   1.50 Ia      GALEXASC J095753.93-103830.3 ATLAS                                                                   No  
+Gaia17bci                     2017dit 2017-04-24.96 15:27:58.92 +42:50:48.69 0.018590 15.8  15.8   ---  10.98 Ia      2MASX J15275941+4250592      Gaia                                                                    Yes 
+ATLAS17evm                    2017dio 2017-04-26.49 11:36:27.76 +18:17:46.92 0.037000 17.0  16.1   ---   0.48 Ic-BL   SDSS J113627.76+181747.3     ATLAS                                                                   No  
+DLT17aw                       2017drh 2017-05-03.58 17:32:26.06 +07:03:47.38 0.005554 15.7  15.6   ---  28.20 Ia      NGC 6384                     DLT40                                                                   Yes 
+PS17dbd                       2017eaa 2017-05-10.32 11:28:17.92 +26:58:36.95 0.040000 16.6  16.4   ---  11.16 Ia      KUG 1125+272                 Pan-STARRS                                                              Yes 
+ATLAS17fgh                    2017ebm 2017-05-13.4  13:23:19.1  -19:37:17.07 0.016732 16.7  17.0   ---  11.64 Ia-91bg ESO 576-G044                 ATLAS                                                                   No  
+PSN J20344424+6011359         2017eaw 2017-05-14.24 20:34:44.24 +60:11:36.00 0.000133 12.6  12.9   --- 155.47 II      NGC 6946                     Amateurs (P. Wiggins)                                                   Yes 
+ATLAS17fml                    2017edj 2017-05-18.32 12:44:14.87 +48:35:21.55 0.030589 16.8  16.6   ---   7.98 Ia      MCG +08-23-086               ATLAS                                                                   Yes 
+ATLAS17fnt                    2017edw 2017-05-19.34 10:52:4.44  +11:35:41.69 0.042996 16.6  16.8   ---   2.70 Ia      2MASX J10520439+1135386      ATLAS                                                                   Yes 
+ATLAS17fop                    2017eea 2017-05-19.39 12:23:54.19 +09:07:27.81 0.060000 17.0  16.7   ---   7.08 Ia      GALEXASC J122354.64+090730.1 ATLAS                                                                   Yes 
+Gaia17biu                     2017egm 2017-05-23.9  10:19:5.62  +46:27:14.08 0.030721 13.9  15.8   ---   5.47 SLSN-I  NGC 3191                     Gaia                                                                    Yes 
+2017ein                       2017ein 2017-05-25.97 11:52:53.25 +44:07:26.20 0.002699 15.1  14.5   ---  42.54 Ic      NGC 3938                     Amateurs (R. Arbour)                                                    Yes 
+PTSS-17tal                    2017ejd 2017-05-28.6  14:43:7.45  +01:05:48.68 0.033751 15.0  16.4   ---  12.49 Ia      2MASX J14430777+0105599      PTSS                                                                    No  
+DLT17bk                       2017ejb 2017-05-28.63 12:48:36.01 -41:19:33.53 0.009867 15.7  15.4   --- 158.28 Ia-91bg NGC 4696                     DLT40                                                                   Yes 
+2017eji                       2017eji 2017-05-29.1  20:57:53.38 -17:57:09.00 0.028046 16.2  16.3   ---  46.49 Ia      IC 1339                      Amateurs (S. Leonini, L. M. Tinjaca Ramirez, M. Conti, and P. Rosi)     Yes 
+Gaia17bki                     2017elf 2017-05-29.49 00:57:6.74  +08:58:21.18 0.031000 16.8   ---   ---   2.94 Ia      2MASX J00570652+0858205      Gaia                                                                    No  
+ATLAS17glh                    2017ekr 2017-06-01.55 23:02:32.19 +32:35:13.18 0.019914 15.6  15.4   ---  28.86 Ia      UGC 12323                    ATLAS                                                                   Yes 
+PS17dfh                       2017emq 2017-06-03.27 10:00:18.57 +54:32:23.07 0.005247 13.9   ---   ---   5.04 Ia      UGC 05369                    Pan-STARRS                                                              No  
+Gaia17blw                     2017eni 2017-06-05.03 03:05:10.78 -45:33:03.49 0.081520 16.9  17.0   ---   2.76 IIn     2MASXi J0305110-453304       Gaia                                                                    Yes 
+ATLAS17gvn                    2017epb 2017-06-09.39 14:18:27.7  +12:53:04.78 0.024774 16.1  16.1   ---   6.96 Ia      NGC 5550                     ATLAS                                                                   Yes 
+2017erp                       2017erp 2017-06-13.63 15:09:14.8  -11:20:02.76 0.006174 13.6  13.6   ---  48.90 Ia      NGC 5861                     Amateurs (K. Itagaki)                                                   Yes 
+ATLAS17hca                    2017ets 2017-06-16.41 16:13:46.15 +22:54:59.14 0.031985 16.4  16.7   ---   9.42 Ia      CGCG 137-064                 ATLAS                                                                   Yes 
+2017ezd                       2017ezd 2017-06-17.97 19:56:38.66 -38:36:27.80 0.018076 15.7  15.5   ---  27.02 Ia      ESO 339-G009                 Amateurs (S. Parker)                                                    Yes 
+ATLAS17hdo                    2017evc 2017-06-18.56 21:17:50.88 -25:06:23.97 0.049000 17.0  16.5   ---   4.26 Ia-91T  2MASX J21175062-2506262      ATLAS                                                                   No  
+ATLAS17hcs                    2017evb 2017-06-18.57 21:45:16.5  -37:49:45.69 0.031398 16.6  16.5   ---   9.36 Ia      2MASX J21451729-3749462      ATLAS                                                                   Yes 
+ATLAS17hlo                    2017ewx 2017-06-19.71 14:02:16.52 +07:40:44.21 0.015217 16.2  16.2   ---  24.66 Ib      NGC 5418                     ATLAS                                                                   Yes 
+2017fax                       2017fax 2017-06-25.45 23:03:56.38 +30:09:28.80 0.023209 16.4  16.3   ---  12.10 Ia-91bg NGC 7473                     Amateurs (R. Gagliano, R. Post, E. Weinberg, J. Newton, and T. Puckett) Yes 
+ATLAS17hpc                    2017faa 2017-06-27.31 13:19:03.90 -02:30:45.81 0.018480 15.9  15.8   ---  19.50 II      IC 4224                      ATLAS                                                                   Yes 
+ATLAS17hpt                    2017faf 2017-06-28.43 17:34:39.98 +26:18:22.00 0.029000 16.8  15.3   ---   4.32 II      GALEXASC J173440.11+261818.0 ATLAS                                                                   No  
+ATLAS17ijc                    2017fem 2017-07-02.34 14:32:27.32 +27:25:36.75 0.014337 16.8  16.6   ---   2.46 IIP     IC 4452                      ATLAS                                                                   Yes 
+Gaia17bro                     2017fck 2017-07-02.54 05:19:54.37 -56:11:08.49 0.094420 16.5  16.4   ---  41.16 IIn     2MASS J05194991-5611261      Gaia                                                                    Yes 
+ATLAS17iif                    2017fek 2017-07-05.5  20:21:47.44 -10:43:53.27 0.033000 16.9  16.4   ---   5.64 IIb     2MASX J20214751-1043479      ATLAS                                                                   Yes 
+ATLAS17iig                    2017fel 2017-07-05.52 21:29:13.38 -00:17:40.93 0.030711 16.8  16.7   ---   0.96 Ia      CGCG 375-044                 ATLAS                                                                   No  
+ATLAS17iky                    2017ffv 2017-07-10.32 13:57:21.74 -34:46:24.46 0.014010 15.3  15.2   ---  15.18 Ia      ESO 384-G018                 ATLAS                                                                   Yes 
+DLT17bx                       2017fgc 2017-07-11.47 01:20:14.44 +03:24:09.96 0.008000 13.5  13.5   --- 124.42 Ia      NGC 474                      DLT40                                                                   Yes 
+ATLAS17ipa                    2017fmz 2017-07-15.57 22:00:51.39 -01:50:24.27 0.028273 16.7  16.8   ---   5.82 Ia      CGCG 377-011                 ATLAS                                                                   Yes 
+2017fof                       2017fof 2017-07-16.89 16:54:23.79 +41:20:09.70 0.028308 16.8  16.4   ---  17.02 Ia-91bg UGC 10602                    Amateurs (S. Leonini, M. Conti, L.M. Tinjaca Ramirez, and P. Rosi)      Yes 
+2017fms                       2017fms 2017-07-17.32 21:20:14.6  -04:52:51.30 0.031000 16.4  16.6   ---  23.04 Ia      IC 1371                      Amateurs (R. Gagliano, R. Post, E. Weinberg, J. Newton, and T. Puckett) Yes 
+2017fut                       2017fut 2017-07-29.08 01:28:58.84 +19:33:55.00 0.042803 16.2  15.9   ---   6.83 Ia      CGCG 459-062                 Amateurs (F. Ciabattari, E. Mazzoni, and M. Rossi)                      No  
+Gaia17bzv                     2017fzy 2017-08-05.97 05:21:58.87 +03:29:05.71 0.014453 16.8  15.9   ---  10.38 Ia      IC 0413                      Gaia                                                                    No  
+Gaia17car                     2017gbb 2017-08-09.24 05:53:4.81  -17:52:03.50 0.010422 16.4  15.9   ---  73.90 Ia-02cx IC 0438                      Gaia                                                                    No  
+DLT17cd                       2017fzw 2017-08-09.89 06:21:34.77 -27:12:53.51 0.005400 16.0  14.0   ---  94.83 Ia-91bg NGC 2217                     DLT40                                                                   Yes 
+ATLAS17jiv                    2017gah 2017-08-10.49 22:02:42.43 -32:47:33.50 0.008906 15.0  14.5   ---  45.74 Ia      NGC 7187                     ATLAS                                                                   Yes 
+DLT17ch                       2017gax 2017-08-14.71 04:45:49.43 -59:14:42.56 0.004440 14.1  13.6   ---   6.79 Ib/c    NGC 1672                     DLT40                                                                   Yes 
+2017gfj                       2017gfj 2017-08-19.95 22:12:34.43 +38:40:37.70 0.072000 16.9  16.4   ---  38.09 Ia      UGC 11950                    Amateurs (R. Arbour)                                                    No  
+MASTER OT J091344.71762842.5  2017gkk 2017-08-19.96 09:13:44.37 +76:28:42.40 0.004923 14.7   ---   ---  12.00 IIb     NGC 2948                     MASTER                                                                  No  
+Gaia17cch                     2017ghs 2017-08-22.03 10:28:2.18  -42:06:20.70 0.018146 16.4  16.7   ---  18.90 Ia      ESO 317-G032                 Gaia                                                                    No  
+PSP17A                        2017gjn 2017-08-24.19 02:43:48.41 +32:31:33.70 0.015120 15.3  15.0   ---  57.74 Ia      NGC 1067                     Amateurs (Xingming Observatory Sky Survey)                              Yes 
+MASTER OT J033744.97+723159.0 2017gpn 2017-08-27.02 03:37:44.97 +72:31:59.00 0.007300 15.9  15.6   ---  20.25 IIb     NGC 1343                     MASTER                                                                  Yes 
+Gaia17cet                     2017glk 2017-08-31.72 03:28:57.15 -07:05:39.41 0.070949 16.9  17.5   ---   0.72 Ia      SDSS J032857.16-070540.0     Gaia                                                                    No  
+2017gla                       2017gla 2017-09-01.83 11:47:21.95 +89:05:09.54 0.020334 16.0   ---   ---  26.51 Ia      NGC 3172                     Amateurs (G. Cortini)                                                   No  
+2017glq                       2017glq 2017-09-02.71 02:08:28.0  +06:23:16.60 0.011755 13.9  14.2  14.3  26.00 Ia      IC 0208                      Amateurs (R. Gagliano, R. Post, E. Weinberg, J. Newton, and T. Puckett) Yes 
+PSP17B                        2017glx 2017-09-03.7  19:43:40.29 +56:06:36.30 0.011000 13.4  14.4  15.0   3.94 Ia-91T  NGC 6824                     Amateurs (Xingming Observatory Sky Survey)                              Yes 
+DLT17cq                       2017gmr 2017-09-04.27 02:35:30.15 -09:21:14.95 0.005037 14.0  14.2  14.5  36.97 II      NGC 988                      DLT40                                                                   Yes 
+2017gqr                       2017gqr 2017-09-04.97 19:28:21.6  +56:34:46.00 0.024764 16.1  16.1  17.6   9.91 Ia      2MASX J19282147+5634562      Amateurs (R. Gagliano, R. Post, E. Weinberg, J. Newton, and T. Puckett) Yes 
+Gaia17cha                     2017gra 2017-09-07.49 03:17:31.69 -35:09:07.49 0.065800 16.7  16.3  16.6   1.98 IIn     GALEXASC J031731.83-350906.5 Gaia                                                                    Yes 
+Gaia17chn                     2017gry 2017-09-10.0  03:28:7.94  -56:34:41.99 0.019337 16.8  16.4  16.6   7.19 IIP     ESO 155-G036                 Gaia                                                                    Yes 
+2017grn                       2017grn 2017-09-11.28 23:31:53.6  -05:00:43.40 0.017312 16.4  16.6  16.9  18.11 II      IC 1498                      Amateurs (R. Gagliano, R. Post, E. Weinberg, J. Newton, and T. Puckett) Yes 
+Gaia17cin                     2017gxq 2017-09-17.45 13:05:24.01 +56:19:27.05 0.008410 13.6  15.6  17.1   8.71 Ia      NGC 4964                     Gaia                                                                    Yes 
+2017gwy                       2017gwy 2017-09-26.17 22:23:34.52 +11:51:35.85 0.029871 17.0  17.0  16.7  15.38 Ia      UGC 12017                    Amateurs (R. Gagliano, R. Post, E. Weinberg, J. Newton, and T. Puckett) No  
+ATLAS17lsr                    2017hca 2017-09-28.59 08:49:41.07 -08:05:31.25 0.013403 16.2   ---  16.3   3.42 II      2MASX J08494084-0805303      ATLAS                                                                   Yes 
+ATLAS17lui                    2017hcd 2017-10-01.48 01:42:51.83 +31:28:56.57 0.034847 16.8  16.0   ---  15.42 IIn     CGCG 503-007                 ATLAS                                                                   Yes 
+ATLAS17lsn                    2017hcc 2017-10-02.38 00:03:50.58 -11:28:28.78 0.017300 13.4  13.6  13.7   4.38 IIn     GALEX 2674128878581058535    ATLAS                                                                   Yes 
+2017hbj                       2017hbj 2017-10-03.06 04:31:7.68  -63:19:11.10 0.017422 16.0  15.4  15.9  14.56 II      ESO 084-G021                 Amateurs (S. Parker)                                                    No  
+Gaia17cpe                     2017his 2017-10-11.82 03:25:44.56 -63:52:53.80 0.033000 16.8  15.3  16.5   7.86 Ia      2MASS J03254569-6352552      Gaia                                                                    No  
+PTSS-17xpl                    2017hhz 2017-10-12.64 01:44:16.89 +12:15:19.59 0.034160 16.9  16.7  16.3   8.06 Ia      UGC 01218                    PTSS                                                                    Yes 
+Gaia17cpj                     2017hix 2017-10-13.12 15:47:24.78 +68:47:11.26 0.020000 15.9   ---  16.1   3.24 Ic      GALEXASC J154724.48+684714.0 Gaia                                                                    No  
+ATLAS17mgt                    2017hjy 2017-10-14.5  02:36:2.56  +43:28:19.51 0.007000 16.3  15.4  15.3   6.06 Ia      GALEXASC J023602.02+432817.6 ATLAS                                                                   Yes 
+ATLAS17mgh                    2017hjw 2017-10-14.57 05:08:43.99 +70:28:32.28 0.016161 16.1   ---  15.7  23.21 Ia      UGC 03245                    ATLAS                                                                   Yes 
+Gaia17cqf                     2017hky 2017-10-16.64 11:23:30.51 +63:21:59.43 0.009725 16.2  16.6   ---   3.36 II      CGCG 314-023                 Gaia                                                                    Yes 
+PSP17E                        2017hle 2017-10-18.68 01:07:33.06 +32:24:30.00 0.017005 16.7  16.5  16.6 103.72 Ia-91bg NGC 0383                     Amateurs (Xingming Observatory Sky Survey)                              No  
+ATLAS17msi                    2017hoq 2017-10-21.55 05:19:20.29 -17:36:41.72 0.020000 16.1  16.5  15.7  21.12 Ia      GALEXASC J051921.27-173657.4 ATLAS                                                                   Yes 
+2017hpa                       2017hpa 2017-10-25.35 04:39:50.75 +07:03:54.90 0.015654 15.6   ---   ---  37.31 Ia      UGC 03122                    Amateurs (R. Gagliano, R. Post, E. Weinberg, J. Newton, and T. Puckett) Yes 
+Gaia17cvb                     2017hyz 2017-10-25.58 18:06:58.09 -57:34:38.96 0.018036 16.6  17.2   ---   1.56 II      2MASX J18065813-5734373      Gaia                                                                    No  
+PTSS-17ygs                    2017hqc 2017-10-27.49 23:23:8.21  +10:38:54.63 0.037000 17.0  16.8  16.7   4.12 Ia      GALEXASC J232308.47+103844.5 PTSS                                                                    Yes 
+ATLAS17mwz                    2017hrq 2017-10-29.47 04:20:14.9  -43:49:24.13 0.055000 16.1  15.9  16.6   1.74 IIn     FAIRALL 0407                 ATLAS                                                                   No  
+ATLAS17naq                    2017hyh 2017-11-05.48 07:10:41.07 +06:27:41.40 0.012039 16.5  15.7   ---  29.28 IIb     CGCG 029-002                 ATLAS                                                                   No  
+2017ijx                       2017ijx 2017-11-18.46 10:51:53.02 +51:00:28.90 0.027729 16.9  16.9   ---   8.51 Ia      NGC 3410                     Amateurs (K. Itagaki)                                                   No  
+2017iro                       2017iro 2017-11-30.45 14:06:23.11 +50:43:20.20 0.006191 15.5  15.7  15.2  17.73 Ib/c    NGC 5480                     Amateurs (P. Wiggins)                                                   Yes 
+ATLAS17nmh                    2017isq 2017-12-04.62 13:13:12.18 -19:31:15.08 0.009393 15.3  15.9   --- 157.89 Ia      NGC 5018                     ATLAS                                                                   Yes 
+ATLAS17nph                    2017ivh 2017-12-05.63 13:39:36.25 -11:28:55.86 0.007717 16.3  16.3   ---  48.57 II      NGC 5254                     ATLAS                                                                   No  
+2017iub                       2017iub 2017-12-06.02 05:11:49.27 +67:29:15.10 0.020397 16.1  17.5   ---  23.43 II      UGC 03252                    Amateurs (M. Caimmi)                                                    No  
+GRB 171205A                   2017iuk 2017-12-07.25 11:09:39.52 -12:35:18.34 0.037022 16.0  16.7   ---   6.11 Ic-BL   LCRS B110709.2-121854        Swift                                                                   No  
+ATLAS17nnn                    2017ivb 2017-12-08.64 13:39:5.3   -20:17:29.94 0.031742 16.8   ---   ---  14.58 Ia      2MASX J13390624-2017235      ATLAS                                                                   No  
+2017ivu                       2017ivu 2017-12-11.86 15:36:32.7  +16:36:19.40 0.006528 15.4  16.3  16.4  16.94 IIP     NGC 5962                     Amateurs (K. Itagaki)                                                   Yes 
+2017ixh                       2017ixh 2017-12-12.7  06:44:26.5  -63:42:40.00 0.011325 17.0  16.7   ---  24.34 Ib/c    NGC 2297                     Amateurs (P. Pearl)                                                     No  
+ATLAS17nse                    2017iyb 2017-12-16.45 06:08:56.81 -27:47:44.98 0.010108 14.9  14.7   ---  27.77 Ia      ESO 425-G010                 ATLAS                                                                   Yes 
+2017ixv                       2017ixv 2017-12-17.83 19:21:31.24 +61:08:51.76 0.007302 15.4  15.9   ---  10.50 Ic-BL   NGC 6796                     Amateurs (G. Cortini)                                                   No  
+2017jbj                       2017jbj 2017-12-20.47 00:48:5.42  -02:47:22.40 0.013492 16.4  16.2  16.5  60.32 II      NGC 0259                     Amateurs (K. Itagaki)                                                   Yes 
+MASTER OT J104021.29-462510.8 2017jyl 2017-12-27.91 10:40:21.29 -46:25:10.80 0.023923 16.1  15.8   ---  19.74 Ia      2MASX J10402231-4625264      MASTER                                                                  Yes 
+Gaia17dky                     2017jhf 2017-12-28.9  12:25:45.76 -21:44:24.43 0.032606 16.6  16.4   ---  33.72 Ia      ESO 573-G021                 Gaia                                                                    No

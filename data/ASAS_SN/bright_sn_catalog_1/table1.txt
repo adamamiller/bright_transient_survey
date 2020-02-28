@@ -1,0 +1,123 @@
+Title: The ASAS-SN Bright Supernova Catalog I: 2013-2014
+Authors: T. W.-S. Holoien et al.
+Table: Table 1 - ASAS-SN Supernovae
+================================================================================
+Byte-by-byte Description of file: table1.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label      Explanations
+--------------------------------------------------------------------------------
+   1- 11 A11    ---      SNName     Name of supernova
+  13- 18 A6     ---      IAUName    IAU name of supernova (1)
+  20- 32 A13    ---      DiscDate   Discovery Date
+  34- 44 A11    ---      RA         Right Ascension (2)
+  46- 56 A11    ---      Dec        Declination (2)
+  58- 65 F8.6   ---      Redshift   Redshift of supernovae
+  67- 70 A4.1   mag      DiscMag    Discovery V-band magnitude (3)
+  72- 75 A4.1   mag      PeakMag    Peak V-band magnitude (3)
+  77- 81 A5.2   arcsec   Offset     Offset from host nucleus (4)
+  83- 89 A7     ---      Type       Type of supernova
+  91- 93 A3     d        DiscAge    Age of supernova at discovery, relative to peak (5)
+  95-122 A28    ---      HostName   Host galaxy name
+ 124-149 A26    ---      DiscATel   Discovery ATel
+ 151-186 A36    ---      ClassATel  Classification ATel (6, 7)
+--------------------------------------------------------------------------------
+Note (1):   IAU name is not provided if one was not given to the supernova.
+Note (2):   Right ascension and declination are given in the J2000 epoch.
+Note (3):   All magnitudes are V -band magnitudes from ASAS-SN.
+Note (4):   Offset indicates the offset of the SN in arcseconds from the coordinates of the host nucleus, taken from NED.
+Note (5):   Discovery ages are given in days relative to peak. All ages are approximate and are only listed if a clear age was given in the classification telegram.
+Note (6):   ASASSN-13aw and ASASSN-13cc were classified via CBET, and the CBET number is given instead of an ATel citation in those cases.
+Note (7):   ASASSN-14ms was never publicly classified prior to this work, and thus no ATel citation is available.
+--------------------------------------------------------------------------------
+ASASSN-13an 2013da 2013-06-05.34 13h45m36.22 -07d19m32.5 0.021600 16.3 15.8  3.51 Ia        0 2MASX J13453653-0719350      Prieto et al. (2013i)      Prieto et al. (2013j)                
+ASASSN-13an 2013da 2013-06-05.34 13:45:36.22 -07:19:32.5 0.021600 16.3 15.8  3.51 Ia        0 2MASX J13453653-0719350      Prieto et al. (2013i)      Prieto et al. (2013j)                
+ASASSN-13ar 2013dl 2013-06-17.61 01:18:41.89 -07:26:41.9 0.017750 15.1 14.8 30.12 Ia       -4 VV 478                       Kochanek et al. (2013b)    Kochanek et al. (2013c)              
+ASASSN-13av 2013ei 2013-06-26.47 21:26:31.84 +12:10:48.8 0.017290 15.7 15.7 15.23 Ia       -3 NGC 7068                     Kochanek et al. (2013a)    Prieto et al. (2013k)                
+ASASSN-13aw 2013dr 2013-07-01.40 17:19:30.10 +47:42:03.4 0.016835 16.0 15.0  9.34 Ia       -8 CGCG 252-043                 Stanek et al. (2013a)      CBET 003576                            
+ASASSN-13bb 2013ef 2013-07-04.56 01:55:20.87 +06:36:33.9 0.017405 16.0 15.7 19.56 Ia       -1 UGC 01395                    Stanek et al. (2013b)      Childress et al. (2013)              
+ASASSN-13cc 2013ex 2013-08-19.62 05:32:46.62 -14:02:46.2 0.010440 15.6 15.0 65.44 Ia      --- NGC 1954                     Brimacombe et al. (2013a)  CBET003635                            
+ASASSN-13ch ---    2013-08-28.24 16:16:33.97 -00:35:27.3 0.016460 15.8 15.8  7.80 Ia       -2 CGCG 023-030                 Prieto et al. (2013g)      Prieto et al. (2013c)                
+ASASSN-13cj ---    2013-08-27.27 16:17:11.08 +04:33:14.7 0.018000 15.3 15.3  3.51 Ia       -3 CGCG 051-075                 Prieto et al. (2013d)      Prieto et al. (2013e)                
+ASASSN-13co ---    2013-08-29.39 21:40:38.42 +06:30:36.4 0.023063 17.0 16.8  3.03 IIP      -3 CGCG 402-014                 Holoien et al. (2013a)     Morrell & Prieto (2013a)           
+ASASSN-13cp ---    2013-08-30.24 15:33:49.29 +21:08:20.3 0.023576 15.9 15.9 11.22 Ia       -1 ARK 477                      Holoien et al. (2013b)     Morrell & Prieto (2013b)           
+ASASSN-13cu ---    2013-09-01.43 00:40:10.14 -10:26:25.9 0.027200 17.0 16.6  6.12 Ia        7 VIII Zw 035                  Prieto et al. (2013a)      Prieto et al. (2013b)                
+ASASSN-13dd ---    2013-09-24.63 09:07:36.82 +03:23:38.7 0.012550 15.2 15.2  5.44 Ia       -2 NGC 2765                     Brimacombe et al. (2013b)  Conlon, Foley & Kirshner (2013)    
+ASASSN-13dl ---    2013-10-10.51 07:38:49.33 +58:12:43.2 0.027000 16.6 16.6  2.00 Ia        2 Uncatalogued                 Prieto et al. (2013h)      Prieto et al. (2013f)                
+ASASSN-13dm 2013hk 2013-12-04.86 03:02:11.03 +15:55:37.9 0.017000 15.9 15.6  1.08 Ia        1 2MASX J03021111+1555387      Shappee et al. (2013a)     Pastorello et al. (2013)             
+ASASSN-13dn ---    2013-12-15.60 12:52:58.37 +32:25:05.3 0.022805 16.0 15.8 21.42 II      --- SDSS J125258.03+322444.3     Shappee et al. (2013b)     Martini et al. (2013)                
+ASASSN-14ad ---    2014-01-26.47 12:40:11.10 +18:03:32.8 0.026400 16.9 16.9  9.85 Ia       -6 KUG 1237+183                 Prieto et al. (2014f)      Zhang et al. (2014)                  
+ASASSN-14ar ---    2014-04-24.28 09:09:41.68 +37:36:07.6 0.022980 16.7 16.0  1.41 Ia-91bg  -5 IC 0527                      Stanek et al. (2014f)      Mosquera et al. (2014)               
+ASASSN-14as ---    2014-05-01.37 12:57:34.11 +35:31:35.8 0.037440 16.9 16.9  8.14 Ia        8 MGC +06-29-001               Shappee et al. (2014a)     Konidaris et al. (2014)              
+ASASSN-14at 2014ay 2014-05-04.47 17:55:05.31 +18:15:27.4 0.010431 16.7 16.2  0.07 II      --- UGC 11037                    Holoien et al. (2014j)     Cao et al. (2014)                    
+ASASSN-14ax ---    2014-05-04.47 17:10:00.68 +27:06:20.1 0.033000 16.8 16.4  0.66 Ia       -5 SDSS J171000.69+270619.5     Holoien et al. (2014s)     Shappee et al. (2014d)               
+ASASSN-14ay ---    2014-05-19.55 15:57:02.99 +37:24:56.4 0.030869 16.6 16.3  5.87 Ia       -2 2MASX J15570268+3725001      Davis et al. (2014a)       Ochner et al. (2014b)                
+ASASSN-14az ---    2014-05-20.59 23:44:48.05 -02:07:02.1 0.006700 14.6 14.4  8.94 IIb       0 GALEXASC J234448.27-020653.4 Davis et al. (2014b)       Benetti et al. (2014a)               
+ASASSN-14ba ---    2014-05-19.29 10:21:31.72 +08:24:18.6 0.032668 16.8 16.8  1.39 Ia-91T    1 SDSS J102131.91+082419.8     Shappee et al. (2014b)     Benetti et al. (2014b)               
+ASASSN-14bb ---    2014-05-19.33 12:14:11.35 +38:39:40.8 0.023000 16.1 16.1  0.84 Ia       -2 2MASX J12141125+3839400      Shappee et al. (2014c)     Fausnaugh et al. (2014)              
+ASASSN-14bd ---    2014-05-22.35 12:52:44.85 +26:28:13.1 0.021405 16.9 16.9 10.22 Ia-91bg --- IC 0831                      Holoien et al. (2014l)     Wagner et al. (2014a)                
+ASASSN-14bf ---    2014-05-21.37 13:58:12.71 +17:31:56.6 0.022447 17.0 17.0  5.38 IIP      14 CGCG 103-030                 Brimacombe et al. (2014d)  Prieto et al. (2014a)                
+ASASSN-14bt ---    2014-05-27.28 10:19:19.74 +58:30:19.7 0.028900 17.3 16.2  3.89 Ia       -6 UGC 05566                    Davis et al. (2014c)       Davis et al. (2014d)                 
+ASASSN-14bu ---    2014-05-29.31 11:18:41.03 +25:09:59.9 0.025400 16.7 16.2  1.48 II      --- SDSS J111840.97+250958.5     Davis et al. (2014e)       Davis et al. (2014f)                 
+ASASSN-14cb ---    2014-06-07.33 13:08:14.45 +62:02:02.5 0.033643 16.7 16.5  2.50 Ia       -2 2MASXi J1308145+620200       Holoien et al. (2014w)     Holoien et al. (2014x)               
+ASASSN-14co ---    2014-06-17.36 15:57:29.75 +01:06:34.0 0.033340 17.0 16.9 11.00 Ia        7 CGCG 023-005                 Brimacombe et al. (2014n)  Leonard et al. (2014)                
+ASASSN-14cu ---    2014-06-18.04 12:47:02.61 -24:14:41.7 0.024797 17.2 16.7  5.68 Ia        0 2MASX_J12470274-2414435      Holoien et al. (2014b)     Prieto et al. (2014b)                
+ASASSN-14db ---    2014-06-22.28 22:02:01.83 -70:02:27.9 0.037519 16.8 16.8  3.60 Ia        5 ESO 075-G049                 Stanek et al. (2014d)      Jha et al. (2014)                    
+ASASSN-14dc ---    2014-06-24.61 02:18:38.06 +33:36:58.4 0.044000 15.8 14.9  3.24 Ia+CSM  --- 2MASX J02183825+3336556      Holoien et al. (2014t)     Chen et al. (2014)                   
+ASASSN-14dd ---    2014-06-24.95 07:45:14.64 -71:24:14.4 0.017722 15.9 15.9 24.12 Ibn      -7 NGC 2466                     Stanek et al. (2014g)      Prieto et al. (2014c)                
+ASASSN-14de ---    2014-06-23.29 10:40:39.33 +39:03:52.7 0.029284 16.7 16.5  5.00 Ic      -10 CGCG 212-036 NED01           Brimacombe et al. (2014i)  Tomasella et al. (2014b)             
+ASASSN-14di ---    2014-06-27.59 02:01:46.19 +26:32:47.8 0.016708 16.8 15.6  7.16 II        5 IC 0188                      Holoien et al. (2014c)     Prieto et al. (2014d)                
+ASASSN-14dl ---    2014-06-30.03 12:21:51.38 -24:09:54.0 0.013926 16.5 16.3 18.95 II       -6 ESO 506-G004                 Holoien et al. (2014k)     Prieto et al. (2014e)                
+ASASSN-14dp ---    2014-07-07.06 11:21:58.33 -37:54:24.6 0.009159 16.3 15.8 27.18 II       -1 ESO 319-G15                  Holoien et al. (2014u)     Childress et al. (2014f)             
+ASASSN-14dq ---    2014-07-08.48 21:57:59.97 +24:16:08.1 0.010424 15.4 15.4  9.00 II      --- UGC 11860                    Stanek et al. (2014b)      Arcavi et al. (2014d)                
+ASASSN-14dz ---    2014-07-13.31 15:05:54.52 +12:44:43.3 0.022202 15.9 15.8  7.00 Ia        0 Mrk 842                      Stanek et al. (2014c)      Tomasella et al. (2014a)             
+ASASSN-14ef ---    2014-07-20.27 22:12:10.71 -27:49:43.4 0.028733 16.5 15.2  6.22 Ia        9 MCG -05-52-046               Holoien et al. (2014r)     Falco et al. (2014b)                 
+ASASSN-14em ---    2014-07-24.27 14:01:49.99 +34:21:42.7 0.035124 16.8 16.7 14.10 Ia       -2 KUG 1359+345                 Cruz et al. (2014b)        Arcavi et al. (2014c)                
+ASASSN-14eo ---    2014-07-26.57 01:57:36.72 +16:46:20.8 0.026819 15.9 15.8  9.24 Ia       -3 CGCG 461-012                 Holoien et al. (2014v)     Falco et al. (2014c)                 
+ASASSN-14ep ---    2014-07-27.21 15:23:44.06 +68:37:55.6 0.022829 16.4 15.6  3.40 Ia       -2 CGCG 338-006                 Conseil et al. (2014a)     Falco et al. (2014d)                 
+ASASSN-14es ---    2014-07-27.28 14:35:01.75 +26:32:38.9 0.030705 16.8 16.5  2.19 Ia        2 IC 4462                      Brimacombe et al. (2014b)  Wagner et al. (2014b)                
+ASASSN-14eu ---    2014-08-01.02 15:00:36.84 -03:50:48.9 0.022722 16.6 15.3 50.53 Ia-00cx  -1 MCG -01-38-015               Conseil et al. (2014c)     Milisavljevic et al. (2014)          
+ASASSN-14ew ---    2014-08-04.05 20:22:00.75 -51:47:45.0 0.019597 16.3 14.9  8.29 Ia       -7 2MASX J20220000-5147474      Conseil et al. (2014b)     Takats et al. (2014a)                
+ASASSN-14fa ---    2014-08-05.31 02:52:23.06 -31:49:18.0 0.022589 16.3 15.8 18.71 Ia       -6 ESO 416-G039                 Holoien et al. (2014d)     Takats et al. (2014b)                
+ASASSN-14fd ---    2014-08-07.98 12:46:14.77 -40:48:52.5 0.015367 16.6 15.1  6.00 IIn     --- GALEXASC J124615.00-404846.2 Fern&ez et al. (2014)      Morrell et al. (2014f)               
+ASASSN-14fj ---    2014-08-12.24 14:40:39.50 +38:37:58.5 0.012500 16.8 16.0 20.00 II      --- NGC 5732                     Nicolas et al. (2014b)     Wagner et al. (2014c)                
+ASASSN-14fo ---    2014-08-15.49 20:34:06.43 -01:58:03.6 0.020000 15.9 15.6  6.00 Ia        1 GALEXASC J203406.21-015759.2 Cruz et al. (2014a)        Elias-Rosa et al. (2014b)            
+ASASSN-14fw ---    2014-08-18.47 23:49:06.72 -07:02:56.6 0.027169 16.7 16.5  2.00 Ia        6 MCG -01-60-044               Stanek et al. (2014e)      Tartaglia et al. (2014)              
+ASASSN-14gh ---    2014-08-28.29 17:15:09.35 +41:48:39.3 0.044000 17.0 15.6  3.94 Ia       -5 SDSS J171509.30+414841.6     Brimacombe et al. (2014a)  Holoien et al. (2014y)               
+ASASSN-14gm 2014cx 2014-09-02.47 00:59:47.83 -07:34:18.6 0.005490 15.8 14.5 40.08 II      --- NGC 337                      Holoien et al. (2014g)     Elias-Rosa et al. (2014a)            
+ASASSN-14ha ---    2014-09-10.29 04:20:01.41 -54:56:17.0 0.005017 14.7 14.7  8.76 II      --- NGC 1566                     Kiyota et al. (2014h)      Arcavi et al. (2014b)                
+ASASSN-14hp ---    2014-09-22.13 21:30:31.42 -70:38:34.4 0.038920 16.6 16.5 15.95 Ia       -7 2MASX J21303015-7038489      Brimacombe et al. (2014e)  Morrell et al. (2014c)               
+ASASSN-14hr ---    2014-09-25.39 01:50:41.23 -14:31:04.7 0.033620 16.5 15.9  1.62 Ia       -7 2MASX J01504127-1431032      Nicolas et al. (2014f)     Morrell et al. (2014d)               
+ASASSN-14hu ---    2014-09-27.37 06:43:26.82 -69:38:14.4 0.015000 16.1 15.6 31.02 Ia       -6 ESO 058-G012                 Holoien et al. (2014n)     Morrell et al. (2014e)               
+ASASSN-14ig ---    2014-09-21.33 01:16:04.95 -61:37:15.8 0.029000 16.3 16.3  1.00 Ia        3 ESO 113-G032                 Gonzalez et al. (2014)     Childress et al. (2014b)             
+ASASSN-14ih ---    2014-09-19.14 22:34:29.83 -24:39:52.4 0.033466 16.6 16.6  0.20 Ia        6 MCG -04-53-013               Conseil et al. (2014d)     Childress et al. (2014c)             
+ASASSN-14ii ---    2014-09-22.14 22:16:40.78 -36:09:39.9 0.030800 16.7 16.6  0.80 Ia       -2 2dFGRS S588Z294              Conseil et al. (2014e)     Childress et al. (2014d)             
+ASASSN-14il ---    2014-10-01.11 00:45:32.55 -14:15:34.6 0.021989 16.5 15.2  0.42 IIn     --- 2MASX J00453260-1415328      Brimacombe et al. (2014g)  Childress et al. (2014e)             
+ASASSN-14in ---    2014-10-04.29 18:24:30.02 +52:26:29.4 0.033000 16.4 16.0  6.30 Ia       -8 2MASX J18242915+5226380      Nicolas et al. (2014a)     Zhang & Wang (2014b)               
+ASASSN-14iu ---    2014-10-12.61 09:10:39.53 +50:22:48.3 0.016855 16.1 15.5  1.50 Ia        0 NGC 2771                     Thorstensen et al. (2014a) Thorstensen et al. (2014b)           
+ASASSN-14iz ---    2014-10-14.06 20:21:49.84 -31:17:06.8 0.019277 17.0 16.1 27.46 IIP      -2 ESO 462-G009                 Monard et al. (2014)       Stritzinger, Hsiao & Taddia (2014) 
+ASASSN-14jb 2014dq 2014-10-19.09 22:23:16.12 -28:58:30.8 0.006031 16.9 15.8 21.70 IIP     --- ESO 467-G051                 Brimacombe et al. (2014j)  Challis (2014)                       
+ASASSN-14jc ---    2014-10-19.34 07:35:35.29 -62:46:12.6 0.011325 16.1 15.6  3.11 Ia       -4 2MASX J07353554-6246099      Kiyota et al. (2014b)      Romero-Canizales et al. (2014)       
+ASASSN-14jg ---    2014-10-29.05 23:33:13.82 -60:34:12.5 0.014827 15.0 14.9 13.98 Ia       -3 2MASX J23331223-6034201      Holoien et al. (2014m)     Arcavi et al. (2014a)                
+ASASSN-14jh ---    2014-10-30.51 08:40:44.27 +57:15:04.9 0.017533 16.7 16.7  8.99 II       10 MCG +10-13-008               Nicolas et al. (2014c)     Ochner et al. (2014a)                
+ASASSN-14jz ---    2014-11-10.03 18:44:44.34 -52:48:05.5 0.012000 15.7 14.9 16.48 Ia       -9 GALEXASC J184443.33-524819.2 Kiyota et al. (2014a)      Dimitriadis et al. (2014a)           
+ASASSN-14kd ---    2014-11-12.28 22:53:24.95 +04:47:57.3 0.026000 16.8 15.9  3.10 Ia       -8 2MASX J22532475+0447583      Nicholls et al. (2014b)    Firth et al. (2014)                  
+ASASSN-14kg ---    2014-11-17.36 01:44:38.38 +35:48:20.4 0.014477 16.7 15.9  4.16 II      --- CGCG 521-075                 Nicolas et al. (2014d)     Falco et al. (2014e)                 
+ASASSN-14ko ---    2014-11-14.28 05:25:18.13 -46:00:20.3 0.042489 17.3 16.6  0.86 IIn     --- ESO 253-G003                 Holoien et al. (2014e)     Dimitriadis et al. (2014b)           
+ASASSN-14kp ---    2014-11-22.09 00:39:52.58 -38:03:52.2 0.023000 16.8 16.7  3.50 II       -5 GALEXASC J003952.48-380347.3 Holoien et al. (2014a)     Morrell et al. (2014a)               
+ASASSN-14kq ---    2014-11-23.07 23:45:15.51 -29:47:01.1 0.033600 17.0 16.3  9.52 Ia       -6 2MASX J23451480-2947009      Brimacombe et al. (2014h)  Morrell et al. (2014b)               
+ASASSN-14kr ---    2014-11-23.64 12:54:13.15 -07:38:57.4 0.014000 15.5 15.5  7.47 Ia       27 GALEXASC J125413.02-073849.5 Brimacombe et al. (2014f)  Jose et al. (2014)                   
+ASASSN-14lo ---    2014-12-08.58 11:51:53.19 +18:32:31.0 0.019930 16.0 15.8 19.20 Ia       -4 UGC 06837                    Kiyota et al. (2014c)      Shappee et al. (2014f)               
+ASASSN-14lp ---    2014-12-09.61 12:45:09.10 -00:27:32.5 0.005100 14.3 11.9 12.00 Ia      --- NGC 4666                     Holoien et al. (2014o)     Thorstensen et al. (2014c)           
+ASASSN-14lq ---    2014-12-09.21 22:57:19.41 -20:58:00.8 0.026191 16.2 16.2 23.10 Ia-91T    4 2MASX J22571481-2058014      Nicolas et al. (2014e)     Zhang & Wang (2014c)               
+ASASSN-14lt ---    2014-12-10.37 03:11:02.54 -13:06:38.8 0.032046 16.5 16.5  6.70 Ia       -6 IC 0299                      Kiyota et al. (2014d)      Zhang & Wang (2014d)               
+ASASSN-14lu ---    2014-12-09.65 14:10:39.52 -02:40:56.0 0.026995 16.4 16.4  5.80 Ia      --- 2MASX J14103977-0241003      Brimacombe et al. (2014m)  Shappee et al. (2014g)               
+ASASSN-14lv ---    2014-12-12.05 23:32:07.37 -41:16:11.7 0.049194 17.4 16.4  2.42 Ia        7 LCRS B232926.0-413242        Kiyota et al. (2014f)      Shappee et al. (2015b)               
+ASASSN-14lw ---    2014-12-12.07 01:06:49.17 -46:59:00.0 0.016000 16.4 15.5 12.50 Ia       -8 GALEXASC J010647.95-465904.1 Kiyota et al. (2014g)      Childress et al. (2014a)             
+ASASSN-14ma ---    2014-12-13.27 23:55:09.13 +10:12:54.2 0.013700 16.8 16.7  2.22 IIP       0 2MASX J23551001+1013281      Brimacombe et al. (2014c)  Zhang & Wang (2014a)               
+ASASSN-14me ---    2014-12-16.08 01:26:40.22 -57:59:49.9 0.018000 16.3 14.9  1.15 Ia      -15 ESO 113-G047                 Stanek et al. (2014a)      Shappee et al. (2015c)               
+ASASSN-14mf ---    2014-12-16.05 00:04:54.46 -32:26:14.6 0.031100 16.7 15.9  2.30 Ia       -6 GALEXASC J000454.54-322615.3 Nicholls et al. (2014a)    Falco et al. (2014a)                 
+ASASSN-14mg ---    2014-12-18.11 02:53:58.10 -21:38:52.9 0.031000 16.7 16.6  2.33 Ia       14 GALEXASC J025358.03-213854.7 Brimacombe et al. (2014k)  Shappee et al. (2015d)               
+ASASSN-14ms ---    2014-12-26.61 13:04:08.69 +52:18:46.5 0.054000 16.6 16.5  1.36 Ibn     --- SDSS J130408.54+521846.4     Kiyota et al. (2014e)      This Work                            
+ASASSN-14mu ---    2014-12-29.39 09:26:17.25 +45:29:25.2 0.027249 16.5 16.5  1.33 Ia        3 KUG 0923+457                 Brimacombe et al. (2014l)  Ochner et al. (2015)                 
+ASASSN-14mw ---    2014-12-29.08 01:41:25.16 -65:37:01.3 0.027406 16.8 15.7 36.27 Ia       -5 AM 0139-655 NED02            Holoien et al. (2014p)     Shappee et al. (2015e)               
+ASASSN-14my ---    2014-12-30.29 11:38:29.98 -08:58:35.8 0.020514 16.5 15.3  4.44 Ia       -3 NGC 3774                     Holoien et al. (2014q)     Shappee et al. (2015f)               

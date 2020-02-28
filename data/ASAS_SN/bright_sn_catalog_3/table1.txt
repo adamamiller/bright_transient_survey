@@ -1,0 +1,179 @@
+Title: The ASAS-SN Bright Supernova Catalog -- III. 2016
+Authors: T. W.-S. Holoien et al.
+Table: Table 1 - ASAS-SN Supernovae
+================================================================================
+Byte-by-byte Description of file: table1.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label      Explanations
+--------------------------------------------------------------------------------
+   1- 11 A11    ---      SNName     Name of supernova
+  13- 19 A7     ---      IAUName    IAU name of supernova
+  21- 33 A13    ---      DiscDate   Discovery Date
+  35- 45 A11    ---      RA         Right Ascension (1)
+  47- 57 A11    ---      Dec        Declination (1)
+  59- 65 F7.5   ---      Redshift   Redshift of supernova
+  67- 70 F4.1   mag      DiscMag    Discovery V-band Magnitude (2)
+  72- 75 F4.1   mag      PeakMag    Peak V-band Magnitude (2)
+  77- 81 A5     arcsec   Offset     Offset from host nucleus (3)
+  83- 90 A8     ---      Type       Type of supernova
+  92- 94 A3     d        DiscAge    Age of supernova at discovery, relative to peak (4)
+  96-125 A30    ---      HostName   Host galaxy name
+ 127-152 A26    ---      DiscAtel   Discovery ATel
+ 154-181 A28    ---      ClassAtel  Classification ATel
+--------------------------------------------------------------------------------
+Note (1):   Right ascension and declination are given in the J2000 epoch.
+Note (2):   All magnitudes are V -band magnitudes from ASAS-SN.
+Note (3):   Offset indicates the offset of the SN in arcseconds from the coordinates of the host nucleus, taken from NED.
+Note (4):   Discovery ages are given in days relative to peak. All ages are approximate and are only listed if a clear age was given in the classification telegram.
+--------------------------------------------------------------------------------
+ASASSN-16aa 2016A   2016-01-02.42 08:09:14.55 +00:16:50.6 0.01738 16.8 16.4  7.99 Ia        -4 UGC 04251                      Brown et al. (2016c)       Pan et al. (2016a)          
+ASASSN-16ab 2016B   2016-01-03.62 11:55:04.20 +01:43:07.2 0.00429 14.7 14.7 11.36 II        -4 CGCG 012-116                   Shappee et al. (2016b)     Piascik & Steele (2016a)    
+ASASSN-16ad 2016F   2016-01-09.28 01:39:32.05 +33:49:36.3 0.01614 16.2 15.1 13.99 Ia       --- KUG 0136+335                   Dong et al. (2016b)        Rui et al. (2016a)          
+ASASSN-16ah 2016J   2016-01-11.34 05:47:45.38 +53:36:32.3 0.02850 16.8 16.7  9.19 Ia        -8 Uncatalogued                   Brimacombe et al. (2016a)  Brimacombe et al. (2016a)   
+ASASSN-16ai 2016I   2016-01-12.58 14:39:44.77 +23:23:42.5 0.01490 17.0 16.7  8.99 IIP      --- UGC 09450                      Brown et al. (2016d)       Xin & Zhang (2016)          
+ASASSN-16aj 2016K   2016-01-14.21 04:21:48.21 -15:45:19.3 0.03075 17.0 14.1  8.95 Ia        -2 NGC 1562                       Brimacombe et al. (2016b)  Zhang (2016)                
+ASASSN-16al 2016L   2016-01-15.36 15:00:27.47 -13:33:09.0 0.00930 17.0 16.5 49.94 IIP      --- UGCA 397                       Kiyota et al. (2016a)      Dimitriadis et al. (2016)   
+ASASSN-16am 2016N   2016-01-15.36 04:45:21.28 +73:23:41.1 0.01502 17.4 17.1 14.33 II         2 CGCG 328-018                   Masi et al. (2016a)        Piascik & Steele (2016b)    
+ASASSN-16ar 2016Z   2016-01-17.21 04:28:30.83 -17:39:23.4 0.03108 17.0 16.5  0.14 Ia         1 2MASX J04283087-1739233        Masi et al. (2016b)        Masi et al. (2016b)         
+ASASSN-16at 2016X   2016-01-20.59 12:55:15.50 +00:05:59.7 0.00441 15.1 14.0 73.00 II       --- UGC 08041                      Bock et al. (2016a)        Hosseinzadeh et al. (2016a) 
+ASASSN-16av 2016ac  2016-01-18.44 11:51:28.24 +22:01:33.7 0.02567 16.5 16.0  0.26 Ia        -7 NGC 3926 NED02                 Holoien et al. (2016e)     Holoien et al. (2016e)      
+ASASSN-16aw 2016yr  2016-01-29.27 05:39:57.45 -40:30:57.9 0.03728 17.0 16.3 61.53 Ia        -1 ESO 306-G 016                  Kiyota et al. (2016b)      Cikota et al. (2016a)       
+ASASSN-16ax 2016ag  2016-01-26.23 01:31:23.18 +60:19:13.7 0.01870 16.0 15.7  2.24 Ia        -5 2MASX J01312331+6019128        Masi et al. (2016c)        Falco et al. (2016a)        
+ASASSN-16ay 2016ys  2016-01-28.41 07:12:14.35 +07:14:23.2 0.02834 16.7 16.3 14.02 Ia        -2 UGC 03738                      Koff et al. (2016a)        Cikota et al. (2016a)       
+ASASSN-16az 2016za  2016-01-29.38 11:30:33.73 -42:33:31.4 0.03407 16.9 16.4  4.69 Ia         9 2MASX J11303364-4233359        Holoien et al. (2016f)     Prieto et al. (2016a)       
+ASASSN-16ba 2016zb  2016-01-29.34 09:42:29.22 -16:58:26.9 0.01392 16.8 14.9 10.06 II         5 MCG -03-25-015                 Holoien et al. (2016f)     Hosseinzadeh et al. (2016b) 
+ASASSN-16bb 2016zc  2016-01-31.60 14:05:57.10 +43:53:02.2 0.03375 16.6 16.2  5.78 Ia-91T    -7 SDSS J140557.36+435257.2       Kiyota et al. (2016c)      Piascik & Steele (2016c)    
+ASASSN-16bc 2016zd  2016-02-02.28 12:05:25.83 -21:24:01.2 0.03194 17.0 16.4 14.48 Ia       -10 2MASX J12052488-2123572        Fernandez et al. (2016a)   Piascik & Steele (2016c)    
+ASASSN-16bg 2016acx 2016-02-06.47 12:59:25.10 +27:44:25.0 0.02022 17.4 16.8  5.68 Ia        14 2MASX J12592491+2744198        Brown et al. (2016e)       Faran et al. (2016)         
+ASASSN-16bl 2016adk 2016-02-08.22 11:42:26.68 -36:54:23.4 0.02955 17.3 16.8  2.28 Ia         0 2MASX J11422674-3654256        Brimacombe et al. (2016c)  Terreran et al. (2016a)     
+ASASSN-16bm 2016adl 2016-02-08.21 11:51:56.24 -13:25:03.1 0.00652 17.0 16.3  8.97 II         3 GALEXASC J115155.68-132459.3   Brimacombe et al. (2016c)  Hosseinzadeh et al. (2016c) 
+ASASSN-16bn 2016adn 2016-02-09.24 03:10:34.50 +04:16:10.9 0.02317 15.9 15.7 43.77 Ia        -2 2MASX J03103162+0416184        Masi et al. (2016d)        Tonry et al. (2016)         
+ASASSN-16bp 2016adq 2016-02-09.61 14:06:44.37 +71:53:15.3 0.03419 16.7 16.0 11.96 Ia         8 CGCG 336-041                   Cruz et al. (2016a)        Tomasella et al. (2016a)    
+ASASSN-16bq 2016aew 2016-02-12.52 14:11:26.49 +01:17:09.5 0.02040 17.3 15.4  4.38 Ia        -1 IC 0986                        Brimacombe et al. (2016d)  Terreran et al. (2016a)     
+ASASSN-16br 2016aex 2016-02-12.56 15:45:30.26 -13:09:08.0 0.02852 16.8 16.5  4.40 Ia        -6 2MASX J15453055-1309057        Brimacombe et al. (2016d)  Terreran et al. (2016a)     
+ASASSN-16bv 2016aix 2016-02-16.04 01:44:16.85 -41:53:37.0 0.02730 16.5 15.9  2.21 Ia-91T    -8 LCRS B014209.4-420839          Brimacombe et al. (2016e)  Taubenberger et al. (2016)  
+ASASSN-16bw 2016aiy 2016-02-17.37 13:08:25.40 -41:58:50.1 0.01000 16.9 15.6 15.74 IIn      --- ESO 323-G084                   Brimacombe et al. (2016e)  Elias-Rosa et al. (2016a)   
+ASASSN-16bx 2016ajk 2016-02-18.65 19:19:26.49 +52:19:41.6 0.02662 16.9 16.3 13.73 Ia         9 CGCG 280-023                   Brimacombe et al. (2016f)  Frank et al. (2016)         
+ASASSN-16cc 2016aqf 2016-02-26.19 05:46:23.80 -52:05:18.5 0.00402 15.8 15.6  3.42 II        -5 NGC 2101                       Brown et al. (2016f)       Hosseinzadeh et al. (2016d) 
+ASASSN-16ch 2016aqz 2016-03-01.60 13:11:58.00 +14:33:59.0 0.02644 16.9 17.1  2.70 Ia       -10 MSPM 00984                     Wiethoff et al. (2016)     Rui et al. (2016b)          
+ASASSN-16ci 2016arc 2016-02-26.24 03:19:21.32 +41:29:25.6 0.01273 16.5 16.4  1.04 Ia        -6 NGC 1272                       Chornock et al. (2016)     Chornock et al. (2016)      
+ASASSN-16cm 2016arq 2016-03-04.38 15:19:26.89 -00:55:29.7 0.02972 17.0 16.2  3.70 Ia        -3 2MASX J15192684-0055256        Brown et al. (2016g)       Piascik & Steele (2016d)    
+ASASSN-16cn 2016arr 2016-03-04.40 14:19:20.96 -20:57:04.4 0.02713 16.8 16.7  2.47 Ia        -4 ESO 579-G018                   Monard et al. (2016a)      Prieto (2016)               
+ASASSN-16cr 2016ase 2016-03-06.36 11:42:34.66 -25:54:45.1 0.01404 17.0 16.3 20.82 II       --- ESO 504-G009                   Cruz et al. (2016b)        Hosseinzadeh et al. (2016e) 
+ASASSN-16cs 2016asf 2016-03-06.34 06:50:36.73 +31:06:44.6 0.01130 17.2 15.8 16.29 Ia       -12 KUG 0647+311                   Cruz et al. (2016b)        Balam & Graham (2016a)      
+ASASSN-16ct 2016aud 2016-03-06.41 15:13:54.33 +04:45:25.9 0.04193 17.2 16.8  0.36 Ia        -8 SDSS J151354.30+044525.7       Fernandez et al. (2016b)   Piascik & Steele (2016e)    
+ASASSN-16cu 2016aue 2016-03-06.38 18:35:56.75 -63:22:26.1 0.01113 16.9 15.8 10.44 Ia        47 IC 4723                        Fernandez et al. (2016b)   Strader et al. (2016a)      
+ASASSN-16cy 2016ayf 2016-03-10.58 13:45:00.52 +61:16:48.9 0.03481 16.8 16.6  0.41 Ia        -9 CGCG 295-010                   Masi et al. (2016e)        Frank et al. (2016)         
+ASASSN-16dm 2016blb 2016-03-30.29 11:37:20.64 -04:54:36.8 0.01830 16.3 16.2  8.60 IIP        0 2MASX J11372059-0454450        Kiyota et al. (2016d)      Falco et al. (2016b)        
+ASASSN-16dn 2016blc 2016-03-30.19 10:48:49.32 -20:15:50.3 0.01200 16.3 14.7 11.57 Ia        -6 GALEXASC J104848.62-201544.1   Brown et al. (2016h)       Brown et al. (2016h)        
+ASASSN-16dp 2016bli 2016-03-31.47 14:59:42.13 +04:05:08.1 0.03264 16.8 16.4 10.00 Ia         5 SDSS J145942.12+040518.1       Dong et al. (2016c)        Brown et al. (2016h)        
+ASASSN-16dw 2016blj 2016-04-03.29 13:30:00.82 -27:58:26.0 0.03466 16.9 16.3  6.22 Ia         0 2MASX J13300119-2758297        Brimacombe et al. (2016g)  Magee et al. (2016)         
+ASASSN-16dx 2016blk 2016-04-02.98 03:22:12.85 -44:05:40.7 0.02997 16.3 16.1  1.73 Ia       --- APMUKS(BJ) B032028.93-441621.0 Brimacombe et al. (2016h)  Prieto & Shappee (2016b)    
+ASASSN-16ec 2016blv 2016-04-06.24 13:03:10.66 -21:59:12.6 0.02377 16.8 16.8  3.02 Ia        -2 2MASX J13031054-2159149        Bock et al. (2016b)        Prieto & Shappee (2016a)    
+ASASSN-16eh 2016blz 2016-04-10.44 15:40:29.23 +00:54:36.4 0.01173 16.4 15.5  0.36 II       --- SDSS J154029.29+005437.4       Brown et al. (2016i)       TNS                         
+ASASSN-16ej 2016bmc 2016-04-11.56 19:10:37.33 +37:39:17.0 0.02802 16.9 16.6  1.06 Ia        -8 UGC 11409                      Kiyota et al. (2016e)      Holoien et al. (2016g)      
+ASASSN-16ek 2016bmd 2016-04-12.29 07:20:24.31 +32:51:01.2 0.01420 16.5 15.6  6.82 IIb      -18 GALEXASC J072024.60+325058.8   Cruz et al. (2016c)        Mattila et al. (2016)       
+ASASSN-16el 2016bme 2016-04-13.26 08:56:39.15 +52:06:08.7 0.01352 16.4 16.2 34.71 II       --- UGC 04671                      Brown et al. (2016j)       TNS                         
+ASASSN-16em 2016bmh 2016-04-14.41 13:32:14.20 +84:40:42.3 0.02340 17.0 15.8  1.58 Ia        -1 GALEXASC J133213.24+844042.7   Cruz et al. (2016d)        Cruz et al. (2016d)         
+ASASSN-16eo 2016bro 2016-04-03.09 05:43:12.78 -41:31:15.7 0.03700 17.0 16.3  0.10 Ia         9 Uncatalogued                   Strader et al. (2016b)     Strader et al. (2016b)      
+ASASSN-16eq 2016bsa 2016-04-22.62 22:04:35.79 +42:19:32.3 0.01431 16.4 15.7  7.02 Ia        -4 UGC 11898                      Brimacombe et al. (2016i)  Mattila et al. (2016)       
+ASASSN-16es 2016cbx 2016-04-27.39 11:50:54.57 +02:18:24.8 0.02900 16.9 16.5  3.82 Ia        -1 SDSS J115054.45+021828.1       Brown et al. (2016k)       Balam & Graham (2016b)      
+ASASSN-16et 2016cby 2016-04-27.27 10:20:01.72 +56:27:39.7 0.02492 17.2 16.7  0.72 Ia       --- 2MASX J10200192+5627397        Brimacombe et al. (2016j)  TNS                         
+ASASSN-16eu 2016ccf 2016-04-30.21 08:44:10.98 +34:42:56.0 0.01413 17.1 16.5 33.93 IIP       -3 NGC 2649                       Holoien et al. (2016h)     Balam & Graham (2016b)      
+ASASSN-16ex 2016ccj 2016-05-03.43 17:10:23.92 +26:23:47.9 0.04180 17.5 16.6  4.25 Ia-09dc  -11 SDSS J171023.63+262350.3       Kiyota et al. (2016f)      Tomasella et al. (2016b)    
+ASASSN-16fa 2016cct 2016-05-12.36 11:25:35.74 +32:19:17.5 0.03433 16.9 16.5 18.16 Ia        -2 UGC 06434                      Kiyota et al. (2016g)      Balam & Graham (2016c)      
+ASASSN-16fc 2016cda 2016-05-15.35 15:31:51.24 +37:24:47.9 0.02980 17.6 16.2  2.87 Ia        -3 SDSS J153151.40+372445.8       Brimacombe et al. (2016k)  Kangas et al. (2016a)       
+ASASSN-16fd 2016cdb 2016-05-15.38 22:21:29.33 -22:15:46.0 0.02391 16.3 16.2  7.30 Ia         3 2MASX J22212881-2215454        Brimacombe et al. (2016k)  Prieto et al. (2016b)       
+ASASSN-16fe 2016cdc 2016-05-15.35 23:01:11.44 -37:16:09.0 0.03860 17.0 17.0 15.03 Ia       -11 APMUKS(BJ) B225823.09-373218.0 Brimacombe et al. (2016k)  Prieto et al. (2016b)       
+ASASSN-16ff 2016cdd 2016-05-14.15 12:31:53.64 -51:44:50.8 0.00873 16.1 16.0  1.14 Ib         5 ESO 218-G008                   Brimacombe et al. (2016l)  Hosseinzadeh et al. (2016f) 
+ASASSN-16fg 2016cky 2016-05-16.31 00:05:16.12 -16:29:33.0 0.02489 16.5 16.2  2.91 Ia         3 2MASX J00051603-1629348        Monard et al. (2016b)      Prieto et al. (2016b)       
+ASASSN-16fh 2016ckz 2016-05-15.42 00:02:05.60 -26:58:48.3 0.03350 16.3 16.1  2.91 Ia       --- 2MASXi J0002057-265846         Monard et al. (2016b)      Morrell & Shappee (2016a)   
+ASASSN-16fj 2016cmn 2016-05-20.54 18:30:02.38 +39:57:54.3 0.01831 16.3 15.8  3.96 Ia        -5 IC 1289                        Cruz et al. (2016e)        Terndrup et al. (2016)      
+ASASSN-16fl 2016cnx 2016-05-25.05 10:06:54.45 -15:43:00.7 0.02944 16.4 15.7 14.40 Ia        -2 2MASX J10065350-1543022        Nicholls et al. (2016a)    Prieto et al. (2016b)       
+ASASSN-16fn 2016coa 2016-05-26.21 12:56:58.89 -15:32:10.5 0.02120 16.2 15.3  0.80 Ia        -8 Uncatalogued                   Nicholls et al. (2016b)    Falco et al. (2016c)        
+ASASSN-16fo 2016cob 2016-05-26.23 13:32:35.81 -05:16:21.3 0.02961 16.8 16.1  0.58 Ia-91T    -5 2MASX J13323577-0516218        Nicholls et al. (2016b)    Nicholls et al. (2016b)     
+ASASSN-16fp 2016coi 2016-05-27.55 21:59:04.14 +18:11:11.0 0.00365 15.7 13.7 33.12 Ib/c-BL  --- UGC 11868                      Holoien et al. (2016i)     Elias-Rosa et al. (2016b)   
+ASASSN-16fq 2016cok 2016-05-28.30 11:20:19.09 +12:58:57.2 0.00243 16.7 16.2 69.00 IIP       -3 M66                            Bock et al. (2016c)        Zhang et al. (2016)         
+ASASSN-16fs 2016cpy 2016-06-03.43 14:47:06.38 +11:35:41.9 0.02909 16.8 16.6  4.30 Ia        -3 UGC 09523                      Masi et al. (2016f)        TNS                         
+ASASSN-16ft 2016cqi 2016-06-05.58 23:56:13.74 -00:32:28.4 0.02222 17.2 16.6  4.36 II        -3 CGCG 382-005                   Brimacombe et al. (2016m)  TNS                         
+ASASSN-16fv 2016cqz 2016-06-06.28 18:28:10.44 -71:41:38.8 0.01197 15.6 14.8  0.85 Ia        -2 IC 4705                        Brimacombe et al. (2016n)  Prieto et al. (2016b)       
+ASASSN-16fx 2016csd 2016-06-08.43 02:00:44.99 -46:16:49.0 0.03700 17.2 16.6  5.48 Ia       -11 GALEXASC J020044.56-461644.0   Brown et al. (2016l)       Morrell & Shappee (2016a)   
+ASASSN-16gf 2016cvl 2016-06-05.45 14:41:46.60 +19:15:06.7 0.03061 17.5 16.7  1.46 Ia       --- CGCG 104-069                   Fausnaugh et al. (2016)    Fausnaugh et al. (2016)     
+ASASSN-16gm 2016cyh 2016-06-24.31 20:03:49.23 -60:15:20.4 0.03600 16.5 16.3  9.26 Ia        -6 GALEXASC J200348.67-601528.7   Brimacombe et al. (2016o)  Morrell & Shappee (2016b)   
+ASASSN-16gn 2016cyj 2016-06-26.27 12:06:57.59 +27:18:04.9 0.05598 17.3 17.0  1.24 IIn      --- SDSS J120657.56+271806.0       Koff et al. (2016b)        Fraser et al. (2016)        
+ASASSN-16go 2016cyk 2016-06-27.13 13:02:44.26 -26:56:26.8 0.01605 16.4 16.2  3.81 II       --- 2MASX J13024397-2656276        Holoien et al. (2016j)     Falco et al. (2016d)        
+ASASSN-16gp 2016cyl 2016-06-27.16 13:16:42.77 -55:17:59.9 0.01600 16.6 16.8  4.34 Ia        25 WKK 2066                       Brimacombe et al. (2016p)  Strader et al. (2016c)      
+ASASSN-16gq 2016cym 2016-06-27.19 14:11:36.10 -30:23:53.1 0.02314 16.7 15.7 13.80 Ia         3 ESO 446-G023                   Brimacombe et al. (2016p)  Falco et al. (2016d)        
+ASASSN-16gv 2016cyv 2016-07-05.58 01:46:52.11 +33:23:21.6 0.03733 17.2 16.9 15.90 Ia         2 CGCG 503-021                   Brimacombe et al. (2016q)  Piascik & Steele (2016f)    
+ASASSN-16gy 2016cyx 2016-07-06.59 02:21:22.77 +16:33:54.6 0.01369 16.1 16.0  2.75 II       --- UGC 01814                      Masi et al. (2016g)        Falco et al. (2016e)        
+ASASSN-16gz 2016cyz 2016-07-06.42 04:34:27.55 -21:12:55.1 0.03200 16.6 16.5  6.80 Ia         7 APMUKS(BJ) B043218.28-211910.3 Brown et al. (2016m)       Morrell & Shappee (2016b)   
+ASASSN-16ha 2016cza 2016-07-07.37 01:03:30.28 -47:01:27.5 0.02253 16.3 16.2 13.74 Ia         5 FAIRALL 0673                   Brown et al. (2016m)       Morrell & Shappee (2016b)   
+ASASSN-16hc 2016czc 2016-07-07.31 13:59:04.45 +33:08:20.3 0.05097 17.4 16.5  6.95 Ia-91T    -5 2MASX J13590394+3308172        Masi et al. (2016h)        Falco et al. (2016e)        
+ASASSN-16hd 2016czq 2016-07-08.59 01:50:51.84 +22:33:58.8 0.02900 16.8 16.5  9.96 Ia         6 GALEXASC J015051.89+223348.8   Brown et al. (2016n)       Bersier (2016a)             
+ASASSN-16hh 2016daj 2016-07-17.54 02:04:37.41 +21:35:09.8 0.03200 16.9 16.5 24.20 Ia        -2 MCG +03-06-031                 Nicolas et al. (2016a)     Bersier (2016b)             
+ASASSN-16hn 2016egz 2016-07-24.32 00:04:03.85 -34:48:51.8 0.02320 16.6 16.2  0.95 II       --- GALEXASC J000403.88-344851.6   Brimacombe et al. (2016r)  TNS                         
+ASASSN-16hp 2016eiy 2016-07-26.08 13:34:38.72 -23:40:53.3 0.00866 16.2 14.2  9.36 Ia       --- ESO 509-IG064                  Shappee et al. (2016c)     Reynolds et al. (2016)      
+ASASSN-16hr 2016eja 2016-07-26.42 22:25:31.76 +38:59:03.5 0.02400 16.8 16.9  2.87 Ia       -11 2MASX J22253147+3859010        Brimacombe et al. (2016s)  Bersier (2016c)             
+ASASSN-16hw 2016ekt 2016-07-29.34 21:53:27.96 -34:24:21.6 0.01200 14.9 14.6  0.11 Ia        -5 GALEXASC J215327.92-342420.8   Brown et al. (2016o)       Morrell & Shappee (2016b)   
+ASASSN-16hy 2016enk 2016-08-03.21 15:26:29.52 +41:44:03.3 0.00780 16.5 16.3 38.62 II         1 UGC 09857                      Brimacombe et al. (2016t)  Harmanen et al. (2016)      
+ASASSN-16hz 2016eqb 2016-08-01.35 23:15:45.48 -01:20:22.7 0.02531 16.8 16.0  9.31 Ia        -6 2MASX J23154564-0120135        Brimacombe et al. (2016u)  Pan et al. (2016b)          
+ASASSN-16ic 2016eqw 2016-08-06.22 01:14:15.48 -16:24:56.4 0.04700 16.8 16.2  1.64 Ia       --- GALEXASC J011415.49-162456.4   Holoien et al. (2016k)     TNS                         
+ASASSN-16ie 2016esh 2016-08-07.32 16:04:14.31 +16:41:24.9 0.04452 17.5 17.1  0.86 Ia       --- 2MASXi J1604144+164124         Brown et al. (2016p)       TNS                         
+ASASSN-16if 2016esn 2016-08-07.40 05:58:58.73 -52:26:18.5 0.03202 16.7 16.2 57.97 Ia       --- AM 0557-522 NED03              Brimacombe et al. (2016v)  TNS                         
+ASASSN-16in 2016eso 2016-08-08.41 04:59:30.07 -28:51:39.4 0.01606 17.0 15.8 23.75 IIn      --- ESO 422-G019                   Brimacombe et al. (2016w)  TNS                         
+ASASSN-16io 201esx  2016-08-08.43 18:40:01.11 +54:13:02.6 0.03200 17.0 16.7  1.65 Ia         4 2MASX J18400114+5413042        Nicolas et al. (2016b)     Kilpatrick et al. (2016b)   
+ASASSN-16ip 2016euj 2016-08-09.21 02:27:21.79 -23:55:43.4 0.01200 16.3 15.1  0.60 Ia        -5 ESO 479-G007                   Shields et al. (2016)      Gall et al. (2016)          
+ASASSN-16iq 2016evh 2016-08-09.32 23:55:07.75 -31:34:38.7 0.02860 16.6 14.9  1.94 Ia        -5 ESO 471-G041                   Brown et al. (2016q)       Kilpatrick et al. (2016a)   
+ASASSN-16jc 2016fej 2016-08-22.17 20:40:39.88 -54:18:39.0 0.01091 17.0 14.0 33.18 Ia        -4 NGC 6942                       Marples et al. (2016a)     Shappee et al. (2016d)      
+ASASSN-16je 2016fez 2016-08-21.33 17:05:49.02 +69:50:54.6 0.03940 16.9 16.5  6.80 Ia       --- 2MASX J17055033+6950555        Brown et al. (2016r)       TNS                         
+ASASSN-16jf 2016fff 2016-08-23.25 22:36:59.14 -25:13:55.6 0.01144 15.5 14.9 54.50 Ia        -2 UGCA 430                       Chen et al. (2016a)        Bose et al. (2016)          
+ASASSN-16jh 2016fij 2016-08-25.25 00:46:56.32 -33:47:35.6 0.03890 16.8 16.6 10.20 Ia        -5 2dFGRS S501Z101                Chen et al. (2016b)        Shappee et al. (2016e)      
+ASASSN-16jj 2016flu 2016-08-27.58 23:47:11.72 +10:04:59.7 0.02500 17.2 16.6  3.49 Ia        -8 GALEXASC J234711.93+100501.3   Nicolas et al. (2016c)     Tomasella et al. (2016c)    
+ASASSN-16jq 2016fob 2016-08-30.41 08:05:09.12 -22:35:59.2 0.02400 16.1 16.1  7.01 Ia        -1 CGMW 2-2125                    Brimacombe et al. (2016x)  Shappee et al. (2016e)      
+ASASSN-16jt 2016cvk 2016-08-31.09 22:19:49.42 -40:40:04.6 0.01078 16.2 14.5  5.24 IIn-09ip --- ESO 344-G021                   Brimacombe et al. (2016y)  Brown et al. (2016s)        
+ASASSN-16jw 2016fts 2016-09-05.50 02:06:51.20 +14:43:21.5 0.03476 17.0 16.9  2.77 Ia        -6 IC 1780                        Brimacombe et al. (2016z)  TNS                         
+ASASSN-16ke 2016gcl 2016-09-08.36 23:37:56.62 +27:16:37.7 0.02800 17.0 16.2  3.09 Ia-91T    -7 AGC 331536                     Brimacombe et al. (2016aa) TNS                         
+ASASSN-16kk 2016gdu 2016-09-09.25 04:10:31.63 -54:41:05.9 0.04371 16.9 16.7  6.98 Ia-91T    -1 LSBG F156-039                  Brown et al. (2016t)       Short et al. (2016a)        
+ASASSN-16km 2016ggb 2016-09-12.34 01:53:12.58 -49:33:37.2 0.02059 16.3 15.9  0.22 Ia         0 ESO 197-G010                   Brown et al. (2016u)       Brown et al. (2016u)        
+ASASSN-16kv 2016gqb 2016-09-27.23 05:07:39.48 -19:32:55.9 0.03043 17.1 16.6  1.33 Ia         2 2MASX J05073951-1932539        Brimacombe et al. (2016ab) Hosseinzadeh et al. (2016g) 
+ASASSN-16kw 2016gqc 2016-09-27.34 05:08:05.26 -41:41:11.3 0.04453 17.1 16.6  5.60 Ia         5 2MASX J05080487-4141151        Holoien et al. (2016l)     Short et al. (2016b)        
+ASASSN-16kz 2016gsb 2016-09-29.28 06:04:28.24 -20:20:24.5 0.00965 15.9 14.4 50.18 Ia        -1 ESO 555-G029                   Holoien et al. (2016m)     James et al. (2016)         
+ASASSN-16la 2016gsn 2016-09-29.46 02:29:17.43 +18:05:16.4 0.01640 16.3 15.2  3.23 Ia        -7 2MASXi J0229172+180515         Brown et al. (2016v)       James et al. (2016)         
+ASASSN-16lc 2016gtr 2016-09-30.01 19:29:00.51 -51:58:15.7 0.01610 16.0 15.6  9.11 Ia        -3 GALEXASC J192901.47-515813.5   Brown et al. (2016w)       TNS                         
+ASASSN-16lg 2016gye 2016-10-06.20 17:48:12.24 +17:37:31.2 0.02117 16.2 15.9  0.44 Ia        -6 ARK 530                        Brown et al. (2016x)       Tomasella et al. (2016d)    
+ASASSN-16ll 2016gyt 2016-09-26.29 19:00:32.75 +54:34:14.4 0.02615 17.0 16.6  6.73 II       --- IRAS F18594+5429               Brown et al. (2016y)       Tomasella et al. (2016d)    
+ASASSN-16lm 2016haa 2016-10-09.61 09:03:34.50 +41:42:45.5 0.04048 17.4 17.3  9.10 Ia         4 2MASX J09033461+4142367        Nicolas et al. (2016d)     Nielsen et al. (2016)       
+ASASSN-16lx 2016hht 2016-10-19.62 10:24:05.31 +16:44:27.8 0.01860 15.5 15.4 47.12 Ia        -4 IC 0607                        Brown et al. (2016z)       TNS                         
+ASASSN-16lz 2016hko 2016-10-25.25 06:05:51.16 -50:46:50.3 0.04000 16.8 16.5  2.30 Ia        -6 Uncatalogued                   Bock et al. (2016d)        Pan et al. (2016c)          
+ASASSN-16mc 2016hmo 2016-10-21.16 19:58:41.31 -52:21:23.6 0.01891 16.8 16.0  0.30 Ia         7 ESO 233-IG014                  Nicholls et al. (2016c)    Hosseinzadeh et al. (2016h) 
+ASASSN-16mj 2016hpe 2016-10-28.62 09:21:19.03 +17:01:58.4 0.02800 16.4 16.4  1.39 Ia-91T    -4 SDSS J092119.07+170159.5       Bersier et al. (2016)      Bersier et al. (2016)       
+ASASSN-16ml 2016hpt 2016-10-30.08 21:54:36.59 -42:51:02.9 0.02660 17.0 16.9  4.49 II       --- GALEXASC J215436.98-425103.9   Bersier et al. (2016)      Prieto et al. (2016c)       
+ASASSN-16mt 2016hsx 2016-11-03.42 01:00:41.50 -00:26:40.7 0.04360 17.3 15.9  0.30 Ia       --- 2MASX J01004149-0026406        Brimacombe et al. (2016ac) TNS                         
+ASASSN-16mv 2016huh 2016-11-04.27 08:57:05.21 -20:02:05.8 0.01856 16.8 16.4 19.00 Ia        -4 ESO 563-G035                   Nicholls et al. (2016d)    Pursiainen et al. (2016)    
+ASASSN-16mz 2016hwn 2016-11-06.64 12:04:16.91 +21:48:01.8 0.02145 17.1 15.7 10.81 II       --- KUG 1201+220                   Brimacombe et al. (2016ad) TNS                         
+ASASSN-16na 2016hwp 2016-11-06.34 04:09:10.27 +21:26:24.8 0.02119 17.0 16.6  0.32 Ia-91T    -7 2MASX J04091030+2126244        Brimacombe et al. (2016ae) Somero et al. (2016)        
+ASASSN-16nm 2016ijc 2016-11-23.09 21:25:52.16 -37:24:14.3 0.03069 16.7 16.3 19.78 Ia         6 2MASX J21255058-3724071        Brimacombe et al. (2016af) Prieto et al. (2016d)       
+ASASSN-16nn 2016ijf 2016-11-23.14 21:51:47.00 -55:44:19.1 0.03200 16.8 16.6  3.47 Ia        -3 APMUKS(BJ) B214820.71-555825.5 Brimacombe et al. (2016af) Prieto et al. (2016d)       
+ASASSN-16no 2016ins 2016-11-26.59 08:07:27.35 +25:07:47.5 0.02071 16.8 16.4 15.34 Ia        -4 IC 0493                        Brimacombe et al. (2016ag) Prieto et al. (2016d)       
+ASASSN-16np 2016inu 2016-11-14.65 12:36:43.21 +26:06:48.7 0.02084 15.9 15.8  3.26 Ia         0 SDSS J123643.42+260647.1       Brimacombe et al. (2016ah) TNS                         
+ASASSN-16ns 2016ioq 2016-11-27.57 10:04:18.59 +43:25:29.1 0.02500 17.2 16.2  5.42 II       --- GALEXASC J100418.99+432525.7   Brimacombe et al. (2016aj) Turatto et al. (2016)       
+ASASSN-16nt 2016iol 2016-11-27.61 11:41:56.09 +12:35:10.0 0.03422 17.0 16.9  0.73 Ia         8 CGCG 068-029                   Brimacombe et al. (2016ak) TNS                         
+ASASSN-16nv 2016ipi 2016-11-27.21 05:48:27.02 -23:19:25.4 0.04607 17.4 17.0  6.95 Ia        -2 2MASX J05482726-2319189        Brimacombe et al. (2016ai) TNS                         
+ASASSN-16of 2016iqx 2016-12-01.28 06:46:51.44 -64:57:25.8 0.03021 16.7 16.6  7.65 Ia         1 ESO 087-IG 041                 Kiyota et al. (2016h)      Strader et al. (2016e)      
+ASASSN-16oj 2016ips 2016-12-05.15 05:32:09.43 -02:04:25.3 0.02900 17.0 16.7 24.28 Ia         6 SDSS J053208.29-020407.9       Holoien et al. (2016n)     Turatto et al. (2016)       
+ASASSN-16ok 2016irt 2016-12-05.04 00:53:29.43 -36:21:54.6 0.03700 17.3 15.7  6.66 Ia        -6 GALEXASC J005328.92-362154.1   Nicholls et al. (2016e)    Strader et al. (2016e)      
+ASASSN-16ol 2016iru 2016-12-04.07 01:10:02.38 -70:20:56.5 0.03000 17.0 15.6 10.87 Ia       -11 GALEXASC J011003.70-702046.4   Nicholls et al. (2016e)    Strader et al. (2016d)      
+ASASSN-16om 2016isd 2016-12-03.14 23:31:54.45 -40:45:34.2 0.04531 17.6 17.0  9.57 Ia         8 AM 2329-410                    Nicholls et al. (2016f)    Strader et al. (2016e)      
+ASASSN-16oo 2016isq 2016-12-06.09 01:41:18.71 -00:12:36.9 0.05546 16.9 16.5  2.40 Ia         6 2MASX J01411858-0012382        Post et al. (2016a)        Kangas et al. (2016b)       
+ASASSN-16oq 2016ito 2016-12-08.36 12:31:09.15 -35:55:50.5 0.01992 15.4 15.2  8.93 Ia         6 AM 1228-353 NED02              Holoien et al. (2016o)     Strader et al. (2016d)      
+ASASSN-16ov 2016ixb 2016-12-17.29 04:53:59.79 +01:57:46.2 0.02834 17.6 16.6  0.40 Ia       -10 NPM1G +01.0158                 Post et al. (2016b)        Cikota et al. (2016b)       
+ASASSN-16oy 2016iyd 2016-12-19.28 07:37:09.92 -52:19:03.9 0.03510 16.5 16.2  2.11 II       --- SSTSL2 J073710.03-521905.6     Marples et al. (2016b)     Smith et al. (2016)         
+ASASSN-16oz 2016iyv 2016-12-20.11 09:00:13.38 -13:38:02.2 0.03100 16.8 16.2  2.95 Ia-91T    -4 GALEXASC J090013.19-133803.5   Stone et al. (2016)        Cikota et al. (2016c)       
+ASASSN-16pa 2016izf 2016-12-21.15 00:33:14.11 -84:29:20.1 0.03400 17.0 16.4  9.70 Ia        -6 Uncatalogued                   Brimacombe et al. (2016al) Morrell et al. (2016b)      
+ASASSN-16pb 2016izq 2016-12-22.59 07:53:12.80 +12:53:56.0 0.02978 16.4 16.3  7.53 Ia        -5 CGCG 058-057                   Brimacombe et al. (2016al) Pan et al. (2016d)          
+ASASSN-16pd 2016jab 2016-12-23.22 07:05:26.26 -76:00:35.7 0.02150 16.4 15.8  2.71 Ia        -4 PGC 241921                     Brown et al. (2016aa)      Morrell et al. (2016a)      
+ASASSN-16pj 2016jdk 2016-12-29.07 23:23:03.10 -36:14:20.5 0.03710 17.3 16.6  1.13 Ia        -6 GALEXASC J232303.16-361420.6   Marples et al. (2016c)     Seidel et al. (2016)        
+ASASSN-16pk 2016jdl 2016-12-29.55 12:27:39.91 +40:36:53.4 0.02328 16.8 16.4  2.09 Ia        -1 SDSS J122739.96+403651.3       Masi et al. (2016i)        Xiang et al. (2017)         
+ASASSN-16pl 2016jdv 2016-12-29.61 14:14:31.63 +03:11:20.3 0.02693 16.6 16.4  7.88 Ia        -1 IC 0988                        Masi et al. (2016i)        Seidel et al. (2017)        
+ASASSN-16po 2016jga 2016-12-24.14 02:05:38.33 -59:47:58.2 0.02430 17.1 16.6  0.45 II       --- AM 0204-600                    Brimacombe et al. (2017)   Strader & Prieto (2017)     
+ASASSN-16pp 2016jgr 2016-12-31.08 23:42:37.01 -45:41:22.8 0.07680 17.3 16.3  1.80 IIn      --- GALEXASC J234236.73-454123.7   Brimacombe et al. (2017)   Prieto et al. (2017)

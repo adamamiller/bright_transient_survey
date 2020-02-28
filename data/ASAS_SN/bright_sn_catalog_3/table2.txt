@@ -1,0 +1,125 @@
+Title: The ASAS-SN Bright Supernova Catalog -- III. 2016
+Authors: T. W.-S. Holoien et al.
+Table: Table 2 - Non-ASAS-SN Supernovae
+================================================================================
+Byte-by-byte Description of file: table2.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label         Explanations
+--------------------------------------------------------------------------------
+   1- 29 A29    ---      SNName        Name of supernova
+  31- 37 A6     ---      IAUName       IAU name of supernova (1)
+  39- 51 A13    ---      DiscDate      Discovery Date
+  53- 63 A11    ---      RA            Right Ascension (2)
+  65- 75 A11    ---      Dec           Declination (2)
+  77- 83 F7.5   ---      Redshift      Redshift of supernova
+  85- 88 F4.1   mag      PeakMag       Peak magnitude (3)
+  90- 95 A6     arcsec   Offset        Offset from host nucleus (4)
+  97-111 A15    ---      Type          Type of supernova
+ 113-140 A28    ---      HostName      Host galaxy name
+ 142-151 A10    ---      DiscoveredBy  Who discovered the supernova (5)
+ 153-156 A3     ---      Recovered     Recovered independently by ASAS-SN or not (6)
+--------------------------------------------------------------------------------
+Note (1):   IAU name is not provided if one was not given to the supernova. In some cases the IAU name may also be the primary supernova name.
+Note (2):   Right ascension and declination are given in the J2000 epoch.
+Note (3):   All magnitudes are taken from D. W. Bishop’s Bright Supernova website, as described in the text, and may be from different filters.
+Note (4):   Offset indicates the offset of the SN in arcseconds from the coordinates of the host nucleus, taken from NED.
+Note (5):   “Amateurs” indicates discovery by any number of non-professional astronomers, as described in the text.
+Note (6):   Indicates whether the supernova was independently recovered in ASAS-SN data or not.
+--------------------------------------------------------------------------------
+2016D                         2016D   2016-01-01.55 04:01:25.99 -54:45:30.8 0.04510 16.5   2.23 Ia              2MASX J04012613-5445295      Amateurs   Yes 
+2016C                         2016C   2016-01-03.84 13:38:05.30 -17:51:15.3 0.00452 14.9 112.25 IIP             NGC 5247                     Amateurs   Yes 
+MASTER OT J165420.77-615258   ---     2016-01-06.00 16:54:20.77 -61:52:58.0 0.01505 16.9   8.04 IIP             ESO 138-G006                 MASTER     No  
+2016G                         2016G   2016-01-09.94 03:03:57.74 +43:24:03.5 0.00915 16.3  16.68 Ic-BL           NGC 1171                     Amateurs   Yes 
+2016P                         2016P   2016-01-19.19 13:57:31.10 +06:05:51.0 0.01462 16.0  21.88 Ic-BL           NGC 5374                     Amateurs   Yes 
+2016W                         2016W   2016-01-20.49 02:30:39.69 +42:14:08.9 0.01925 16.0  18.44 Ia              NGC 946                      Amateurs   Yes 
+ATLAS16aaf                    2016ado 2016-01-20.78 02:03:05.79 -03:50:28.0 0.04248 17.0   3.18 Ia-07if         2MASX J02030578-0350240      ATLAS      No  
+ATLAS16aab                    2016adp 2016-01-21.81 03:21:42.43 +42:05:49.4 0.01800 16.5   6.36 Ia-91bg         2MASX J03214217+4205549      ATLAS      No  
+MASTER OT J105908.57+103834.8 ---     2016-01-31.06 10:59:08.57 +10:38:34.8 0.03500 16.8   5.16 Ia              SDSS J105908.63+103829.7     MASTER     Yes 
+2016adi                       2016adi 2016-02-03.54 13:47:43.11 -30:55:57.0 0.01490 15.3  46.56 Ia              NGC 5292                     Amateurs   No  
+2016adj                       2016adj 2016-02-08.56 13:25:24.12 -43:00:57.9 0.00183 14.3  39.56 IIb             NGC 5128                     Amateurs   No  
+2016afa                       2016afa 2016-02-12.92 15:36:32.47 +16:36:36.7 0.00653 16.8  12.45 II              NGC 5962                     Amateurs   Yes 
+2016ajf                       2016ajf 2016-02-18.44 03:19:54.47 +41:33:53.5 0.02031 16.9   6.42 Ia              NGC 1278                     Amateurs   Yes 
+Gaia16aeu                     2016ajm 2016-02-20.09 02:49:36.01 -31:13:23.9 0.02136 16.9  14.70 Ia-91bg         2dFGRS S394Z183              Gaia       No  
+Gaia16agf                     2016aqs 2016-02-27.28 06:34:08.98 -25:11:04.6 0.03000 17.0  20.09 Ia              Uncatalogued                 Gaia       Yes 
+2016aqt                       2016aqt 2016-02-28.44 13:45:50.75 +26:47:47.4 0.05046 16.5   2.16 Ia-91T          SDSS J134550.90+264747.4     Amateurs   Yes
+PS16bdu                       2016bdu 2016-02.28.62 13:10:13.95 +32:31:14.1 0.01700 16.5   2.16 IIn             SDSS J131014.04+323115.9     Pan-STARRS Yes 
+2016bam                       2016bam 2016-03-07.43 07:46:52.72 +39:01:21.8 0.01350 15.8  33.80 II              NGC 2444                     Amateurs   Yes 
+ATLAS16ago                    2016bev 2016-03-10.33 07:47:50.21 -18:44:12.8 0.01080 16.7  50.82 IIP             ESO 560-G013                 ATLAS      No  
+2016bas                       2016bas 2016-03-12.51 07:38:05.53 -55:11:47.0 0.00941 16.8  20.02 IIb             ESO 163-G011                 Amateurs   No  
+2016bau                       2016bau 2016-03-13.97 11:20:59.02 +53:10:25.6 0.00386 14.6  38.07 Ib              NGC 3631                     Amateurs   Yes 
+MASTER OT J131405.90+335509.7 2016bir 2016-03-18.77 13:14:05.90 +33:55:09.7 0.03535 16.6   9.43 IIb             SDSS J131405.16+335510.1     MASTER     Yes 
+2016bfu                       2016bfu 2016-03-20.40 05:51:15.48 -38:19:02.2 0.01040 15.7  37.95 Ia-91bg         IC 2150                      Amateurs   Yes 
+2016bfv                       2016bfv 2016-03-20.40 05:51:18.06 -38:18:53.2 0.01040 16.4  21.59 II              IC 2150                      Amateurs   No  
+2016bkv                       2016bkv 2016-03-21.70 10:18:19.31 +41:25:39.3 0.00198 14.8  29.19 IIb             NGC 3184                     Amateurs   Yes 
+PS16bos                       2016bpq 2016-03-30.64 18:53:29.29 +30:40:45.1 0.01651 16.8  18.90 II              CGCG 173-029                 Pan-STARRS Yes 
+2016blx                       2016blx 2016-03-30.77 05:52:59.98 -17:51:44.2 0.01042 16.5  50.49 II              IC 0438                      Amateurs   No  
+PTSS-16ckr                    2016bll 2016-03-31.55 08:33:18.30 +19:20:44.8 0.01916 16.4  11.70 Ib              CGCG 089-046                 PTSS       No  
+MASTER OT J152333.04+092125.6 2016bqs 2016-04-04.10 15:23:33.04 +09:21:25.6 0.03292 16.9  50.96 Ia              CGCG 077-110                 MASTER     Yes 
+iPTF16abc                     2016bln 2016-04-04.39 13:34:45.49 +13:51:14.3 0.02328 16.0 170.00 Ia-91T          NGC 5221                     PTF        Yes 
+2016bmi                       2016bmi 2016-04-14.49 18:34:32.19 -58:31:44.8 0.00746 16.5 121.46 II              IC 4721                      Amateurs   Yes 
+2016brx                       2016brx 2016-04-19.72 22:50:34.03 -01:32:32.5 0.01017 16.1  32.02 Ia              NGC 7391                     Amateurs   No  
+2016bry                       2016bry 2016-04-19.85 20:43:22.40 +80:09:14.6 0.01602 15.6  20.40 Ia              UGC 11635                    Amateurs   No  
+Gaia16alq                     2016dxv 2016-04-21.63 18:12:29.36 +31:16:47.3 0.02300 16.1   2.75 Ia              Uncatalogued                 Gaia       Yes 
+MASTER OT J140958.91+174549.4 2016ccm 2016-04-24.07 14:09:58.91 +17:45:49.4 0.01816 15.6 133.51 IIP             IC 0983                      MASTER     Yes 
+CSS160427:134449+210448       2016ebs 2016-04-27.00 13:44:48.57 +21:04:48.0 0.05300 17.0   1.26 Ia              SDSS J134448.50+210447.1     CRTS       Yes 
+iPTF16auf                     2016ccz 2016-05-13.35 14:31:09.26 +27:14:09.8 0.01489 15.3   5.58 Ia              Mrk 0685                     PTF        Yes 
+MASTER OT J202606.27-200732.6 ---     2016-05-16.15 20:26:06.27 -20:07:32.6 0.02260 15.7  16.90 Ia              GALEXASC J202606.38-200732.4 MASTER     Yes 
+KAIT-16X                      2016coj 2016-05-28.19 12:08:06.77 +11:05:37.8 0.00452 13.0  11.82 Ia              NGC 4125                     LOSS       Yes 
+MASTER OT J83637.5+733504.8   2016ehw 2016-06-04.67 08:36:37.50 +73:35:04.8 0.01200 15.6  19.53 IIn             MCG +12-08-047               MASTER     No  
+2016cqk                       2016cqk 2016-06-04.75 02:38:54.68 -14:18:16.8 0.01520 15.5   3.24 IIP             IC 0245                      Amateurs   No  
+ATLAS16bdg                    2016cvn 2016-06-05.31 12:49:41.36 -11:05:34.4 0.01390 15.1   2.20 Ia              NGC 4708                     ATLAS      Yes 
+PTSS-16ijc                    2016cvv 2016-06-16.71 19:20:28.85 +54:12:30.7 0.04457 16.5  24.17 Ia              CGCG 280-024                 PTSS       No  
+MASTER OT J211223.35+144645.1 2016cxb 2016-06-17.10 21:12:23.35 +14:46:45.1 0.02930 16.5   4.38 Ia              GALEXASC J211223.05+144644.9 MASTER     Yes 
+PTSS-16jik                    2016cyi 2016-06-25.81 22:16:58.39 +46:44:07.3 0.04400 16.4  55.01 IIn             ZOAG G097.31-08.31           PTSS       No  
+CSS160708:151956+052419       2016ehy 2016-07-08.20 15:19:55.92 +05:24:19.0 0.04500 16.2   0.04 Ia              SDSS J151955.92+052418.9     CRTS       No  
+2016dag                       2016dag 2016-07-09.39 08:19:07.45 -78:41:54.0 0.01928 17.0  23.41 Ia              ESO 018-G002                 Amateurs   No  
+2016ekg                       2016ekg 2016-07-27.27 22:00:03.60 -30:11:07.0 0.01710 15.8  17.26 Ia              ESO 466-G032                 Amateurs   Yes 
+Gaia16axi                     2016emr 2016-07-30.39 05:59:58.06 -18:05:22.3 0.02805 17.0   8.46 Ia              2MASX J05595753-1805253      Gaia       Yes 
+2016eoa                       2016eoa 2016-08-02.39 00:21:23.10 +22:26:08.3 0.02077 16.1  11.63 Ia              NGC 83                       Amateurs   Yes 
+2016eob                       2016eob 2016-08-03.11 00:03:07.12 -01:54:42.1 0.02425 16.5  24.13 II              UGC 00005                    Amateurs   No  
+ATLAS16cjv                    2016eyr 2016-08-08.59 02:56:05.81 -14:11:18.6 0.02893 16.7  11.34 Ia              IC 0272                      ATLAS      Yes 
+PS16dtm                       2016ezh 2016-08-12.57 01:58:04.74 -00:52:21.7 0.08040 16.1   0.20 SLSN-II/TDE/AGN SDSS J015804.75-005221.8     Pan-STARRS Yes 
+Gaia16bba                     2016fbo 2016-08-15.59 01:01:35.54 +17:06:04.3 0.03400 16.4   3.12 Ia              GALEXASC J010135.75+170604.9 Gaia       Yes 
+Gaia16bbi                     2016fbz 2016-08-16.83 23:59:16.03 +22:03:00.7 0.04000 16.8   3.20 Ia              GALEXASC J235916.23+220302.4 Gaia       No  
+ATLAS16cpu                    2016ffh 2016-08-17.27 15:11:49.48 +46:15:03.2 0.01820 15.6  15.60 Ia              CGCG 249-11                  ATLAS      Yes 
+MASTER OT J021729.29-595123.9 2016frs 2016-08-23.16 02:17:29.29 -59:51:23.9 0.02919 16.1  57.01 Ia              NGC 888                      MASTER     No  
+2016fnr                       2016fnr 2016-08-29.90 16:37:38.80 +72:22:24.6 0.01437 15.1   5.83 Ia              UGC 10502                    Amateurs   Yes 
+Gaia16bew                     2016fss 2016-09-01.96 14:02:51.91 -30:36:59.3 0.03700 16.8   1.50 Ia              GALEXASC J140251.91-303700.7 Gaia       No  
+KAIT-16ay                     2016fqr 2016-09-02.52 02:52:51.03 +42:12:25.7 0.01201 16.8   7.86 II              NGC 1122                     LOSS       No  
+CSS160904:230721+025428       2016iks 2016-09-04.23 23:07:21.47 +02:54:28.4 0.06300 16.9   0.61 Ia+CSM          Uncatalogued                 CRTS       No  
+2016gfk                       2016gfk 2016-09-11.48 01:14:06.47 -32:39:25.8 0.01195 17.0  23.64 Ia              IC 1657                      Amateurs   Yes 
+2016gfr                       2016gfr 2016-09-12.22 18:19:35.57 +23:47:09.2 0.01400 15.1   4.67 Ia              2MASX J18193566+2347137      Amateurs   Yes 
+2016gfy                       2016gfy 2016-09-13.10 07:26:45.93 +85:45:51.2 0.00806 15.5  34.99 II              NGC 2276                     Amateurs   Yes 
+Gaia16bhj                     2016ghu 2016-09-15.11 04:27:03.26 -06:10:24.2 0.03074 16.7  38.58 Ia              MCG -01-12-008               Gaia       Yes 
+2016ghq                       2016ghq 2016-09-15.69 18:18:28.90 +36:19:07.8 0.02121 15.5   5.94 Ia              UGC 11199                    Amateurs   Yes 
+OGLE16dha                     2016hsc 2016-09-19.39 06:32:25.16 -71:34:04.0 0.00600 15.2   1.70 Ia              GALEXASC J063224.91-713403.9 OGLE       Yes 
+2016gkg                       2016gkg 2016-09-20.25 01:34:14.46 -29:26:25.0 0.00490 15.6  92.51 IIb             NGC 613                      Amateurs   Yes 
+2016gsd                       2016gsd 2016-09-27.15 02:40:34.44 +19:16:59.9 0.06000 16.9   1.72 II              Uncatalogued                 Amateurs   No  
+2016grk                       2016grk 2016-09-30.23 21:19:41.31 +21:57:56.3 0.01653 17.0  47.55 II              UGC 11722                    Gaia       No  
+SNhunt325                     2016guc 2016-10-01.35 00:27:30.31 +30:59:35.9 0.03131 16.7  18.09 Ia              CGCG 500-022                 CRTS       Yes 
+Gaia16bkz                     2016gwl 2016-10-02.92 09:23:28.02 -23:10:10.7 0.00874 15.9  42.24 Ia              NGC 2865                     Gaia       Yes 
+MASTER OT J025606.21+274206.8 2016hbd 2016-10-03.99 02:56:06.21 +27:42:06.8 0.02159 17.0  30.50 IIP             FGC 0362                     MASTER     Yes 
+2016gxp                       2016gxp 2016-10-05.32 00:14:34.65 +48:15:08.1 0.01860 14.1  12.00 Ia              NGC 51                       Amateurs   Yes 
+KAIT-16az                     2016hbb 2016-10-09.15 18:35:47.17 +22:28:30.4 0.01333 16.9  16.92 IIb             UGC 11289                    LOSS       No  
+MASTER OT J100629.13+222643.8 2016idl 2016-10-09.40 10:06:29.13 +22:26:43.8 0.05800 16.8   0.23 IIn             SDSS J100629.12+222644.0     MASTER     Yes 
+ATLAS16dmf                    2016hgd 2016-10-13.63 09:59:07.46 +50:59:05.6 0.02554 16.8  18.66 Ia              UGC 05356                    ATLAS      No  
+ATLAS16dou                    2016hnl 2016-10-14.62 06:04:59.05 -33:24:40.0 0.03162 16.9   8.46 Ia              2MASX J06045961-3324449      ATLAS      No  
+SNhunt327                     2016hgm 2016-10-19.38 01:22:11.73 +00:57:07.8 0.00780 16.1  47.82 II              NGC 493                      CRTS       Yes 
+MASTER OT J033333.26-623314.7 2016iil 2016-10-19.97 03:33:33.26 -62:33:14.7 0.02400 15.9  13.48 Ia              2MASX J03333430-6233033      MASTER     Yes 
+MASTER OT J110533.80+194118.7 ---     2016-10-23.06 11:05:33.80 +19:41:18.7 0.02700 16.7  26.58 Ia              SDSS J110534.12+194118.9     MASTER     No  
+ATLAS16dtf                    2016hvl 2016-11-04.62 06:44:02.16 +12:23:47.8 0.01309 16.1  29.82 Ia              UGC 03524                    ATLAS      Yes 
+2016hvu                       2016hvu 2016-11-06.11 22:35:55.56 +20:19:12.6 0.01852 16.5  13.32 IIP             NGC 7316                     CRTS       Yes 
+ATLAS16dvr                    2016iae 2016-11-07.47 04:12:05.53 -32:51:44.8 0.00347 15.0  45.06 Ic              NGC 1532                     ATLAS      Yes 
+Gaia16byh                     2016ioq 2016-11-25.82 10:03:22.89 -37:23:44.3 0.02367 16.9   8.64 Ia              ESO 374-G025                 Gaia       Yes 
+Gaia16caa                     2016itd 2016-12-02.26 14:18:47.74 +24:56:27.0 0.01754 16.0   2.16 Ia              UGC 09165                    Gaia       Yes 
+Gaia16cay                     2016iuc 2016-12-07.77 13:13:26.59 +27:48:24.6 0.02138 16.7  16.74 Ia              NGC 5032                     Gaia       No  
+MASTER OT J133905.0-201718.3  ---     2016-12-08.28 13:39:05.00 -20:17:18.3 0.03174 16.8  18.23 Ia              2MASX J13390624-2017235      MASTER     Yes 
+Gaia16cbd                     2016iuh 2016-12-09.25 12:19:31.44 +49:49:04.3 0.01370 16.2   9.84 Ia              UGC 07367                    Gaia       Yes 
+ATLAS16dzg                    2016ivt 2016-12-14.65 11:35:01.74 +08:28:25.5 0.02708 16.5   6.78 Ia              CGCG 068-006                 ATLAS      Yes 
+KAIT-16bx                     2016iyc 2016-12-18.14 22:09:14.28 +21:31:17.5 0.01269 17.0  17.64 IIb             UGC 11924                    LOSS       No  
+ATLAS16dzt                    2016iyy 2016-12-20.44 06:56:34.62 +46:53:38.6 0.02860 16.0   4.98 II              Uncatalogued                 ATLAS      Yes 
+ATLAS16dzp                    2016iyx 2016-12-20.47 08:43:24.75 +37:32:46.1 0.04100 16.5   1.20 Ia              SDSS J084324.74+373246.0     ATLAS      Yes 
+2016ajo                       2016ajo 2016-12-20.99 18:44:12.49 +24:09:29.7 0.01600 15.7  24.96 Ib              GALEXASC J184412.80+240905.1 Amateurs   No  
+2016jag                       2016jag 2016-12-23.85 15:23:19.79 -04:09:19.5 0.00670 15.2  14.64 Ib              MCG -01-39-005               Amateurs   No   
+2016jfu                       2016jfu 2016-12-30.76 12:54:42.60 +28:56:26.0 0.00829 16.4 108.24 IIP             NGC 4793                     Amateurs   Yes 
+2016jft                       2016jft 2016-12-31.05 09:43:55.87 +41:41:17.8 0.01750 16.7  18.00 IIP             UGC 05198                    Amateurs   Yes 
